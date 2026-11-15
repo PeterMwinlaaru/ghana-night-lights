@@ -1,0 +1,60 @@
+{
+ "title": "Night-time Lights and Development in Ghana",
+ "publisher": "Ghana Statistical Service - Data Science Unit",
+ "built": "2026-11-13T18:57:52",
+ "district_id": "district_code (2021 PHC), 261 districts in 16 regions",
+ "reports": {
+  "spatial_expansion": {
+   "prefix": "se_",
+   "status": "final",
+   "source": "03c_spatial_expansion (R outputs)"
+  },
+  "socioeconomic": {
+   "prefix": "so_",
+   "status": "reproduced",
+   "source": "03a_socioeconomic/reproduce"
+  },
+  "gdp": {
+   "prefix": null,
+   "status": "reproduced",
+   "source": "03b_GDP forecasting/reproduce"
+  }
+ },
+ "nightlight_sources": {
+  "se_": "VIIRS VNL annual (EOG v2.1/v2.2), district zonal stats by exact-extract (R); lit threshold 1.0 nW",
+  "so_": "VIIRS VNL annual, socio-economic team's extraction (03a_socioeconomic/nightlight_panel_enriched.csv)",
+  "gdp": "VIIRS DNB monthly composites (VCMSLCFG), aggregated to quarters, national"
+ },
+ "caveats": [
+  "The two district nightlight panels (se_ and so_) come from different extractions and disagree; both are kept in district_panel.csv with distinct prefixes. Do not mix them in one chart without saying so.",
+  "Offinso North has no Gi* value: the 03c queen-contiguity graph found no neighbour for it (a boundary topology gap), so its 'Not significant' hotspot class is a default, not a test result.",
+  "Expected gaps in districts.csv: 7 newly-lit districts have no CAGR/decomposition (zero lit area in 2012); 4 districts dark in 2012 have no convergence growth.",
+  "AfDB-DI4A workshop code may be reused for the front end only, with attribution ('Source: AfDB-DI4A', changes stated)."
+ ],
+ "panel_comparison": {
+  "rows": 3654,
+  "rows_differing_gt_0_01": 619,
+  "median_abs_diff": 0.000695,
+  "max_abs_diff": 0.757759,
+  "max_at": {
+   "id": 308,
+   "year": 2025
+  }
+ },
+ "files": [
+  "access.json",
+  "access_districts.csv",
+  "data_dictionary.csv",
+  "district_panel.csv",
+  "districts.csv",
+  "districts.geojson",
+  "gdp.json",
+  "regions.csv",
+  "socioeconomic.json",
+  "spatial_expansion.json"
+ ],
+ "validation": {
+  "checks": 44,
+  "passed": 44
+ }
+}

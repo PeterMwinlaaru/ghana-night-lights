@@ -1,0 +1,381 @@
+{
+ "report": "Spatial Expansion of Settlements in Ghana, 2012-2025 (GSS, Final draft)",
+ "headline": {
+  "threshold_nw": 1.0,
+  "year0": 2012,
+  "year1": 2025,
+  "lit_area_2012_km2": 4898.078299,
+  "lit_area_2025_km2": 31731.363902,
+  "abs_change_km2": 26833.285603,
+  "total_change_pct": 547.832925,
+  "cagr_pct": 15.45699,
+  "districts_gaining": 238,
+  "districts_losing": 0,
+  "newly_lit_districts": 7,
+  "area_effect_pct": 96.088937,
+  "intensity_effect_pct": 3.911063,
+  "mode_counts": {
+   "sprawl-dominated": 197,
+   "intensification-dominated": 35,
+   "balanced": 22,
+   "newly lit / undefined": 7
+  },
+  "hotspot_districts": 35
+ },
+ "national_series": [
+  {
+   "year": 2012,
+   "lit_area_km2": 4898.078299,
+   "radiance_sum": 108090.55342,
+   "yoy_change_km2": null,
+   "yoy_pct": null
+  },
+  {
+   "year": 2013,
+   "lit_area_km2": 5516.482735,
+   "radiance_sum": 126707.42009,
+   "yoy_change_km2": 618.404436,
+   "yoy_pct": 12.62545
+  },
+  {
+   "year": 2014,
+   "lit_area_km2": 5484.790765,
+   "radiance_sum": 129435.832212,
+   "yoy_change_km2": -31.69197,
+   "yoy_pct": -0.574496
+  },
+  {
+   "year": 2015,
+   "lit_area_km2": 6227.495679,
+   "radiance_sum": 127247.426094,
+   "yoy_change_km2": 742.704913,
+   "yoy_pct": 13.541171
+  },
+  {
+   "year": 2016,
+   "lit_area_km2": 7674.813003,
+   "radiance_sum": 170995.34672,
+   "yoy_change_km2": 1447.317324,
+   "yoy_pct": 23.24076
+  },
+  {
+   "year": 2017,
+   "lit_area_km2": 10113.94026,
+   "radiance_sum": 206373.24406,
+   "yoy_change_km2": 2439.127257,
+   "yoy_pct": 31.780934
+  },
+  {
+   "year": 2018,
+   "lit_area_km2": 11236.045484,
+   "radiance_sum": 248256.036867,
+   "yoy_change_km2": 1122.105224,
+   "yoy_pct": 11.09464
+  },
+  {
+   "year": 2019,
+   "lit_area_km2": 11408.751585,
+   "radiance_sum": 265528.937267,
+   "yoy_change_km2": 172.7061,
+   "yoy_pct": 1.537072
+  },
+  {
+   "year": 2020,
+   "lit_area_km2": 15318.217705,
+   "radiance_sum": 335547.829357,
+   "yoy_change_km2": 3909.466121,
+   "yoy_pct": 34.267256
+  },
+  {
+   "year": 2021,
+   "lit_area_km2": 18402.998313,
+   "radiance_sum": 422984.35967,
+   "yoy_change_km2": 3084.780607,
+   "yoy_pct": 20.137986
+  },
+  {
+   "year": 2022,
+   "lit_area_km2": 19637.733372,
+   "radiance_sum": 445771.578824,
+   "yoy_change_km2": 1234.735059,
+   "yoy_pct": 6.709423
+  },
+  {
+   "year": 2023,
+   "lit_area_km2": 22075.026847,
+   "radiance_sum": 531915.035003,
+   "yoy_change_km2": 2437.293475,
+   "yoy_pct": 12.411277
+  },
+  {
+   "year": 2024,
+   "lit_area_km2": 27984.557958,
+   "radiance_sum": 639987.584793,
+   "yoy_change_km2": 5909.531111,
+   "yoy_pct": 26.77021
+  },
+  {
+   "year": 2025,
+   "lit_area_km2": 31731.363902,
+   "radiance_sum": 755578.090456,
+   "yoy_change_km2": 3746.805944,
+   "yoy_pct": 13.388834
+  }
+ ],
+ "theil_series": [
+  {
+   "year": 2012,
+   "theil_total": 0.558962,
+   "theil_between": 0.162641,
+   "theil_within": 0.396321,
+   "between_share_pct": 29.096957,
+   "within_share_pct": 70.903043
+  },
+  {
+   "year": 2013,
+   "theil_total": 0.541189,
+   "theil_between": 0.152152,
+   "theil_within": 0.389037,
+   "between_share_pct": 28.114372,
+   "within_share_pct": 71.885628
+  },
+  {
+   "year": 2014,
+   "theil_total": 0.578103,
+   "theil_between": 0.144644,
+   "theil_within": 0.433459,
+   "between_share_pct": 25.020411,
+   "within_share_pct": 74.979589
+  },
+  {
+   "year": 2015,
+   "theil_total": 0.522152,
+   "theil_between": 0.120318,
+   "theil_within": 0.401834,
+   "between_share_pct": 23.042672,
+   "within_share_pct": 76.957328
+  },
+  {
+   "year": 2016,
+   "theil_total": 0.422593,
+   "theil_between": 0.089812,
+   "theil_within": 0.332782,
+   "between_share_pct": 21.252464,
+   "within_share_pct": 78.747536
+  },
+  {
+   "year": 2017,
+   "theil_total": 0.356779,
+   "theil_between": 0.066807,
+   "theil_within": 0.289971,
+   "between_share_pct": 18.725181,
+   "within_share_pct": 81.274819
+  },
+  {
+   "year": 2018,
+   "theil_total": 0.339891,
+   "theil_between": 0.064566,
+   "theil_within": 0.275325,
+   "between_share_pct": 18.996022,
+   "within_share_pct": 81.003978
+  },
+  {
+   "year": 2019,
+   "theil_total": 0.340646,
+   "theil_between": 0.05743,
+   "theil_within": 0.283216,
+   "between_share_pct": 16.859107,
+   "within_share_pct": 83.140893
+  },
+  {
+   "year": 2020,
+   "theil_total": 0.288254,
+   "theil_between": 0.041116,
+   "theil_within": 0.247139,
+   "between_share_pct": 14.263732,
+   "within_share_pct": 85.736268
+  },
+  {
+   "year": 2021,
+   "theil_total": 0.26574,
+   "theil_between": 0.039511,
+   "theil_within": 0.226229,
+   "between_share_pct": 14.86826,
+   "within_share_pct": 85.13174
+  },
+  {
+   "year": 2022,
+   "theil_total": 0.26028,
+   "theil_between": 0.035923,
+   "theil_within": 0.224357,
+   "between_share_pct": 13.801842,
+   "within_share_pct": 86.198158
+  },
+  {
+   "year": 2023,
+   "theil_total": 0.258508,
+   "theil_between": 0.035067,
+   "theil_within": 0.223441,
+   "between_share_pct": 13.565289,
+   "within_share_pct": 86.434711
+  },
+  {
+   "year": 2024,
+   "theil_total": 0.235974,
+   "theil_between": 0.034652,
+   "theil_within": 0.201322,
+   "between_share_pct": 14.684593,
+   "within_share_pct": 85.315407
+  },
+  {
+   "year": 2025,
+   "theil_total": 0.243411,
+   "theil_between": 0.037127,
+   "theil_within": 0.206283,
+   "between_share_pct": 15.25288,
+   "within_share_pct": 84.74712
+  }
+ ],
+ "top15_gain": [
+  {
+   "id": 327,
+   "name": "Shai Osudoku",
+   "region": "Greater Accra",
+   "se_lit_2012_km2": 18.373515,
+   "se_lit_2025_km2": 484.556187,
+   "se_lit_change_km2": 466.182672,
+   "se_lit_cagr": 28.62322
+  },
+  {
+   "id": 326,
+   "name": "Ningo Prampram",
+   "region": "Greater Accra",
+   "se_lit_2012_km2": 101.833687,
+   "se_lit_2025_km2": 462.711918,
+   "se_lit_change_km2": 360.878231,
+   "se_lit_cagr": 12.349387
+  },
+  {
+   "id": 401,
+   "name": "South Tongu",
+   "region": "Volta",
+   "se_lit_2012_km2": 15.695,
+   "se_lit_2025_km2": 362.958592,
+   "se_lit_change_km2": 347.263592,
+   "se_lit_cagr": 27.329913
+  },
+  {
+   "id": 524,
+   "name": "Yilo Krobo",
+   "region": "Eastern",
+   "se_lit_2012_km2": 14.75056,
+   "se_lit_2025_km2": 342.081863,
+   "se_lit_change_km2": 327.331303,
+   "se_lit_cagr": 27.357561
+  },
+  {
+   "id": 609,
+   "name": "Bekwai Municipal",
+   "region": "Ashanti",
+   "se_lit_2012_km2": 30.927541,
+   "se_lit_2025_km2": 353.778303,
+   "se_lit_change_km2": 322.850762,
+   "se_lit_cagr": 20.618603
+  },
+  {
+   "id": 111,
+   "name": "Prestea/Huni Valley",
+   "region": "Western",
+   "se_lit_2012_km2": 52.116726,
+   "se_lit_2025_km2": 362.063051,
+   "se_lit_change_km2": 309.946325,
+   "se_lit_cagr": 16.079196
+  },
+  {
+   "id": 601,
+   "name": "Amansie South",
+   "region": "Ashanti",
+   "se_lit_2012_km2": 2.795,
+   "se_lit_2025_km2": 309.498068,
+   "se_lit_change_km2": 306.703068,
+   "se_lit_cagr": 43.632265
+  },
+  {
+   "id": 405,
+   "name": "Ketu North",
+   "region": "Volta",
+   "se_lit_2012_km2": 9.870489,
+   "se_lit_2025_km2": 306.74978,
+   "se_lit_change_km2": 296.879291,
+   "se_lit_cagr": 30.257731
+  },
+  {
+   "id": 215,
+   "name": "Ajumako-Enyan-Esiam",
+   "region": "Central",
+   "se_lit_2012_km2": 13.760831,
+   "se_lit_2025_km2": 297.162604,
+   "se_lit_change_km2": 283.401772,
+   "se_lit_cagr": 26.660812
+  },
+  {
+   "id": 209,
+   "name": "Gomoa East",
+   "region": "Central",
+   "se_lit_2012_km2": 70.030658,
+   "se_lit_2025_km2": 337.784147,
+   "se_lit_change_km2": 267.753489,
+   "se_lit_cagr": 12.866606
+  },
+  {
+   "id": 610,
+   "name": "Amansie West",
+   "region": "Ashanti",
+   "se_lit_2012_km2": 8.450537,
+   "se_lit_2025_km2": 274.597132,
+   "se_lit_change_km2": 266.146595,
+   "se_lit_cagr": 30.705303
+  },
+  {
+   "id": 507,
+   "name": "Ayensuano",
+   "region": "Eastern",
+   "se_lit_2012_km2": 0.645,
+   "se_lit_2025_km2": 264.072578,
+   "se_lit_change_km2": 263.427578,
+   "se_lit_cagr": 58.831143
+  },
+  {
+   "id": 206,
+   "name": "Gomoa West",
+   "region": "Central",
+   "se_lit_2012_km2": 12.338885,
+   "se_lit_2025_km2": 271.590114,
+   "se_lit_change_km2": 259.251229,
+   "se_lit_cagr": 26.846898
+  },
+  {
+   "id": 514,
+   "name": "Suhum Kraboa Coaltar",
+   "region": "Eastern",
+   "se_lit_2012_km2": 12.470305,
+   "se_lit_2025_km2": 271.130586,
+   "se_lit_change_km2": 258.660281,
+   "se_lit_cagr": 26.727055
+  },
+  {
+   "id": 619,
+   "name": "Juaben",
+   "region": "Ashanti",
+   "se_lit_2012_km2": 7.405469,
+   "se_lit_2025_km2": 258.659898,
+   "se_lit_change_km2": 251.254429,
+   "se_lit_cagr": 31.433444
+  }
+ ],
+ "notes": [
+  "Lit area: pixels with radiance >= 1.0 nW/cm2/sr, district boundaries held constant (exact-extract, R).",
+  "Area/intensity effect: log change in lit area as a share of the log change in summed radiance.",
+  "Hotspots: Getis-Ord Gi* on 2025 radiance level and on 2012-2025 change; 'se_hotspot' = Yes if a significant hot spot on level (as in the report annex)."
+ ]
+}

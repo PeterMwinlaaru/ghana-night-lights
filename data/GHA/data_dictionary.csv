@@ -1,0 +1,93 @@
+﻿file,column,description,unit,source
+districts.csv,id,"District code, 2021 Population and Housing Census",code,Identifiers
+districts.csv,region,Region name,text,Identifiers
+districts.csv,name,District name,text,Identifiers
+districts.csv,se_district_area_km2,District area,km²,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_lit_2012_km2,Lit area in 2012: area with radiance of at least 1.0 nW/cm²/sr,km²,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_lit_2025_km2,Lit area in 2025,km²,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_lit_change_km2,"Change in lit area, 2012–2025",km²,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_lit_change_pct,"Change in lit area, 2012–2025; blank if no lit area in 2012",%,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_lit_cagr,"Compound annual growth rate of lit area, 2012–2025; blank if no lit area in 2012",% per year,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_lit_slope_km2_yr,Linear trend of lit area over 2012–2025,km² per year,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_lit_share_2025,"Lit area as a share of district area, 2025",%,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_newly_lit,True if the district had no lit area in 2012,true/false,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_mode,"Dominant mode of expansion: sprawl-dominated, balanced, intensification-dominated, or newly lit / undefined",category,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_area_share,Share of the log change in summed radiance due to growth in lit area; above 1 when brightness per lit km² fell,ratio,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_intensity_share,Share of the log change in summed radiance due to brighter lit land (1 minus se_area_share),ratio,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_radiance_sum_2012,"Summed radiance of lit pixels, 2012",nW/cm²/sr,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_radiance_sum_2025,"Summed radiance of lit pixels, 2025",nW/cm²/sr,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_ntl_mean_2025,"Mean radiance of all pixels in the district, 2025 (used for the hotspot analysis)",nW/cm²/sr,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_gi_level,Getis-Ord Gi* z-score of 2025 mean radiance (queen-contiguity neighbours); blank for Offinso North,z-score,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_gi_growth,Getis-Ord Gi* z-score of the 2012–2025 change in mean radiance; blank for Offinso North,z-score,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_hotspot_level,"Hotspot class for 2025 brightness: Hot 99%, Hot 95%, Hot 90% or Not significant",category,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_hotspot_growth,Hotspot class for the 2012–2025 growth in brightness,category,"Spatial expansion study (GSS, 2026)"
+districts.csv,se_hotspot,Yes if a significant hotspot of 2025 brightness (as in the report annex),Yes/No,"Spatial expansion study (GSS, 2026)"
+districts.csv,so_ntl_mean_2021,"Mean radiance of all pixels in the district, 2021",nW/cm²/sr,"Socio-economic study (GSS, 2026)"
+districts.csv,so_ntl_per_capita_2021,"Summed radiance per person, 2021",nW/cm²/sr per person,"Socio-economic study (GSS, 2026)"
+districts.csv,so_rwi,"Relative Wealth Index, district mean; 0 is the national average",index,"Socio-economic study (GSS, 2026)"
+districts.csv,so_internet_pct,"Individuals using the internet, 2021 Census",%,"Socio-economic study (GSS, 2026)"
+districts.csv,so_clean_cooking_pct,Access to clean fuels and technologies for cooking,%,"Socio-economic study (GSS, 2026)"
+districts.csv,so_adult_literacy_pct,Adult literacy rate,%,"Socio-economic study (GSS, 2026)"
+districts.csv,so_ner_primary_pct,"Net enrolment rate, primary",%,"Socio-economic study (GSS, 2026)"
+districts.csv,so_ner_shs_pct,"Net enrolment rate, senior high school",%,"Socio-economic study (GSS, 2026)"
+districts.csv,so_urbanisation_pct,Share of the population living in urban localities,%,"Socio-economic study (GSS, 2026)"
+districts.csv,so_pop_density,"Population density, 2021",persons per km²,"Socio-economic study (GSS, 2026)"
+districts.csv,so_household_size,Average household size,persons,"Socio-economic study (GSS, 2026)"
+districts.csv,so_age_dependency,Age dependency ratio,dependants per 100 of working age,"Socio-economic study (GSS, 2026)"
+districts.csv,so_infant_mortality,Infant mortality rate,"per 1,000 live births","Socio-economic study (GSS, 2026)"
+districts.csv,so_under5_mortality,Under-five mortality rate,"per 1,000 live births","Socio-economic study (GSS, 2026)"
+districts.csv,so_child_marriage_pct,Child marriage rate,%,"Socio-economic study (GSS, 2026)"
+districts.csv,so_mpi_pct,"Multidimensional poverty rate, 2021",%,"Socio-economic study (GSS, 2026)"
+districts.csv,so_vulnerable_employment_pct,Vulnerable employment: own-account and contributing family workers as a share of the employed,%,"Socio-economic study (GSS, 2026)"
+districts.csv,so_unemployment_pct,Unemployment rate,%,"Socio-economic study (GSS, 2026)"
+districts.csv,so_mpi_2025,"Multidimensional poverty rate, 2025 (District rankings dataset)",proportion (0–1),"Socio-economic study (GSS, 2026)"
+districts.csv,so_ntl_rank_2021,Rank of 2021 mean radiance among the 261 districts (1 = brightest),rank,"Socio-economic study (GSS, 2026)"
+districts.csv,so_electricity_pct,"Share of households with access to electricity, 2021 Population and Housing Census (District rankings.xlsx, 2021 sheet)",% of households,"Socio-economic study (GSS, 2026)"
+districts.csv,so_log_growth_2012_2024,Natural log of mean radiance 2024 over 2012; blank for the 4 districts with no light in 2012,log ratio,"Socio-economic study (GSS, 2026)"
+district_panel.csv,id,"District code, 2021 Population and Housing Census",code,Identifiers
+district_panel.csv,year,Year of the annual night-light composite,year,Identifiers
+district_panel.csv,se_lit_area_km2,Lit area (radiance of at least 1.0 nW/cm²/sr),km²,"Spatial expansion study (GSS, 2026)"
+district_panel.csv,se_lit_share,Lit area as a share of district area,proportion (0–1),"Spatial expansion study (GSS, 2026)"
+district_panel.csv,se_ntl_mean,Mean radiance of all pixels in the district (spatial expansion extraction),nW/cm²/sr,"Spatial expansion study (GSS, 2026)"
+district_panel.csv,se_radiance_sum,Summed radiance of lit pixels,nW/cm²/sr,"Spatial expansion study (GSS, 2026)"
+district_panel.csv,so_ntl_mean,Mean radiance of all pixels in the district (socio-economic extraction; differs slightly from se_ntl_mean),nW/cm²/sr,"Socio-economic study (GSS, 2026)"
+district_panel.csv,so_ntl_sum,Summed radiance of all pixels in the district (socio-economic extraction),nW/cm²/sr,"Socio-economic study (GSS, 2026)"
+regions.csv,region,Region name,text,Identifiers
+regions.csv,se_n_districts,Number of districts,count,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_lit_2012_km2,"Regional lit area, 2012",km²,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_lit_2025_km2,"Regional lit area, 2025",km²,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_abs_change_km2,"Change in regional lit area, 2012–2025",km²,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_pct_change,"Change in regional lit area, 2012–2025",%,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_cagr_pct,"Compound annual growth rate of regional lit area, 2012–2025",% per year,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_lit_share_2025,"Lit area as a share of regional area, 2025",%,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_districts_gaining,Districts whose lit area increased,count,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_sprawl_dominated,Districts classed as sprawl-dominated,count,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_intensification_dominated,Districts classed as intensification-dominated,count,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_hotspot_districts,Districts that are significant hotspots of 2025 brightness,count,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_lit_q1_km2,"First quartile of district lit area in the region, 2025",km²,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_lit_median_km2,"Median district lit area in the region, 2025",km²,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_lit_q3_km2,"Third quartile of district lit area in the region, 2025",km²,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_lit_iqr_km2,"Inter-quartile range of district lit area in the region, 2025",km²,"Spatial expansion study (GSS, 2026)"
+regions.csv,se_lit_max_km2,"Largest district lit area in the region, 2025",km²,"Spatial expansion study (GSS, 2026)"
+regions.csv,so_districts,Number of districts,count,"Socio-economic study (GSS, 2026)"
+regions.csv,so_mean_ntl,"Mean of district mean radiances, 2021",nW/cm²/sr,"Socio-economic study (GSS, 2026)"
+regions.csv,so_median_ntl,"Median of district mean radiances, 2021",nW/cm²/sr,"Socio-economic study (GSS, 2026)"
+regions.csv,so_iqr_ntl,"Inter-quartile range of district mean radiances, 2021",nW/cm²/sr,"Socio-economic study (GSS, 2026)"
+regions.csv,so_electricity_pct,"Mean of district shares of households with access to electricity, 2021 PHC (unweighted)",% of households,"Socio-economic study (GSS, 2026)"
+regions.csv,so_internet_pct,"Mean of district internet use rates, 2021 (unweighted)",%,"Socio-economic study (GSS, 2026)"
+regions.csv,so_poverty_pct,"Mean of district multidimensional poverty rates, 2021 (unweighted)",%,"Socio-economic study (GSS, 2026)"
+regions.csv,so_ntl_growth_2012_2024_pct,"Change in the regional mean of district radiance, 2012–2024",%,"Socio-economic study (GSS, 2026)"
+access_districts.csv,id,"District code, 2021 Population and Housing Census",code,Identifiers
+access_districts.csv,ac_pop_2012,"Population, 2012 (WorldPop, UN-adjusted, summed onto the night-light grid)",persons,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_pop_2020,"Population, 2020 (WorldPop)",persons,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_pop_dark_2012,"People living where no light is detected (radiance below 0.5 nW/cm²/sr), 2012",persons,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_pop_dark_2020,"People living where no light is detected, 2020",persons,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_dark_share_2012,"Share of the population living where no light is detected, 2012",%,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_dark_share_2020,"Share of the population living where no light is detected, 2020",%,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_dark_change_pp,"Change in that share, 2012–2020",percentage points,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_pop_dark_change,"Change in the number of people living where no light is detected, 2012–2020",persons,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_class,"Progress 2012–2020: closing (number fell), pace (number rose, share fell), behind (share rose), fully_lit (under 1% both years)",category,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_new_lit_km2,"Newly lit land: dark in 2012 and 2013, lit in 2024 and 2025",km²,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_electrified_km2,Newly lit land already inhabited in 2012 (at least 5 people per pixel),km²,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_new_settlement_km2,Newly lit land not inhabited in 2012,km²,Electrification and access analysis (GSS Data Science Unit)
+access_districts.csv,ac_electrified_pop_2020,2020 population living on newly lit land that was already inhabited in 2012,persons,Electrification and access analysis (GSS Data Science Unit)

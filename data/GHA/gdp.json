@@ -1,0 +1,630 @@
+{
+ "report": "Satellite-derived Night-time Light and Economic Activity Analysis: Predicting Ghana's GDP (GSS Economic Analysis Division, June 2026)",
+ "status": "reproduced",
+ "scope": {
+  "frequency": "quarterly",
+  "period": "2014Q1-2025Q4",
+  "n": 48,
+  "geography": "national",
+  "gdp_unit": "GHS million, constant prices",
+  "ntl_source": "VIIRS Day/Night Band monthly composites (NOAA/EOG, VCMSLCFG), averaged over Ghana and over each quarter"
+ },
+ "headline": {
+  "ols_r2": 0.926496,
+  "ols_adj_r2": 0.913632,
+  "rolling_mape_pct": 1.92369,
+  "rolling_mae_ghs_m": 967.9572,
+  "rolling_rmse_ghs_m": 1168.906221,
+  "forecast_2026q1_ghs_m": 54062.843409,
+  "forecast_ci95_ghs_m": [
+   50489.257391,
+   57889.364757
+  ],
+  "last_observed_2025q4_ghs_m": 56420.30898,
+  "forecast_qoq_pct": -4.178399,
+  "sarimax_order": "(1,1,0)(0,1,0)4",
+  "sarimax_aic": -145.032744,
+  "sarimax_candidates": 36,
+  "sarimax_exog": [
+   "mean_asi",
+   "d_mean_evi",
+   "mean_vhi",
+   "d_mean_ntl_dnb",
+   "covid"
+  ]
+ },
+ "series": [
+  {
+   "period": "2014Q1",
+   "gdp_millions": 29478.103662,
+   "mean_ntl_dnb": 0.261004,
+   "sum_ntl_dnb": 7603.059856
+  },
+  {
+   "period": "2014Q2",
+   "gdp_millions": 31319.094122,
+   "mean_ntl_dnb": 0.208486,
+   "sum_ntl_dnb": 6073.206584
+  },
+  {
+   "period": "2014Q3",
+   "gdp_millions": 32830.507356,
+   "mean_ntl_dnb": 0.216156,
+   "sum_ntl_dnb": 6296.646116
+  },
+  {
+   "period": "2014Q4",
+   "gdp_millions": 34405.252289,
+   "mean_ntl_dnb": 0.173451,
+   "sum_ntl_dnb": 5052.651036
+  },
+  {
+   "period": "2015Q1",
+   "gdp_millions": 32668.272399,
+   "mean_ntl_dnb": 0.292608,
+   "sum_ntl_dnb": 8523.70917
+  },
+  {
+   "period": "2015Q2",
+   "gdp_millions": 32343.206601,
+   "mean_ntl_dnb": 0.184542,
+   "sum_ntl_dnb": 5375.724726
+  },
+  {
+   "period": "2015Q3",
+   "gdp_millions": 31296.21327,
+   "mean_ntl_dnb": 0.206799,
+   "sum_ntl_dnb": 6024.086287
+  },
+  {
+   "period": "2015Q4",
+   "gdp_millions": 34440.536025,
+   "mean_ntl_dnb": 0.300682,
+   "sum_ntl_dnb": 8758.902835
+  },
+  {
+   "period": "2016Q1",
+   "gdp_millions": 32528.342872,
+   "mean_ntl_dnb": 0.268411,
+   "sum_ntl_dnb": 7818.837282
+  },
+  {
+   "period": "2016Q2",
+   "gdp_millions": 31541.835739,
+   "mean_ntl_dnb": 0.305067,
+   "sum_ntl_dnb": 8886.640639
+  },
+  {
+   "period": "2016Q3",
+   "gdp_millions": 34779.327052,
+   "mean_ntl_dnb": 0.197833,
+   "sum_ntl_dnb": 5762.88456
+  },
+  {
+   "period": "2016Q4",
+   "gdp_millions": 36309.469298,
+   "mean_ntl_dnb": 0.260959,
+   "sum_ntl_dnb": 7601.750547
+  },
+  {
+   "period": "2017Q1",
+   "gdp_millions": 35011.553346,
+   "mean_ntl_dnb": 0.44346,
+   "sum_ntl_dnb": 12918.03157
+  },
+  {
+   "period": "2017Q2",
+   "gdp_millions": 35475.495345,
+   "mean_ntl_dnb": 0.514895,
+   "sum_ntl_dnb": 14998.948463
+  },
+  {
+   "period": "2017Q3",
+   "gdp_millions": 37221.88136,
+   "mean_ntl_dnb": 0.37968,
+   "sum_ntl_dnb": 11060.11427
+  },
+  {
+   "period": "2017Q4",
+   "gdp_millions": 38436.975954,
+   "mean_ntl_dnb": 0.579039,
+   "sum_ntl_dnb": 16867.46144
+  },
+  {
+   "period": "2018Q1",
+   "gdp_millions": 38822.394694,
+   "mean_ntl_dnb": 0.448434,
+   "sum_ntl_dnb": 13062.926199
+  },
+  {
+   "period": "2018Q2",
+   "gdp_millions": 36654.031034,
+   "mean_ntl_dnb": 0.554067,
+   "sum_ntl_dnb": 16140.009733
+  },
+  {
+   "period": "2018Q3",
+   "gdp_millions": 39670.803855,
+   "mean_ntl_dnb": 0.469559,
+   "sum_ntl_dnb": 13678.293852
+  },
+  {
+   "period": "2018Q4",
+   "gdp_millions": 40059.836108,
+   "mean_ntl_dnb": 0.563816,
+   "sum_ntl_dnb": 16423.999146
+  },
+  {
+   "period": "2019Q1",
+   "gdp_millions": 41103.534985,
+   "mean_ntl_dnb": 0.497311,
+   "sum_ntl_dnb": 14486.729963
+  },
+  {
+   "period": "2019Q2",
+   "gdp_millions": 39982.219212,
+   "mean_ntl_dnb": 0.516679,
+   "sum_ntl_dnb": 15050.906137
+  },
+  {
+   "period": "2019Q3",
+   "gdp_millions": 41766.501208,
+   "mean_ntl_dnb": 0.36609,
+   "sum_ntl_dnb": 10664.241817
+  },
+  {
+   "period": "2019Q4",
+   "gdp_millions": 42455.336576,
+   "mean_ntl_dnb": 0.525208,
+   "sum_ntl_dnb": 15299.344542
+  },
+  {
+   "period": "2020Q1",
+   "gdp_millions": 43742.772546,
+   "mean_ntl_dnb": 0.586885,
+   "sum_ntl_dnb": 17096.014729
+  },
+  {
+   "period": "2020Q2",
+   "gdp_millions": 37726.297873,
+   "mean_ntl_dnb": 0.600664,
+   "sum_ntl_dnb": 17497.391578
+  },
+  {
+   "period": "2020Q3",
+   "gdp_millions": 40406.021127,
+   "mean_ntl_dnb": 0.501783,
+   "sum_ntl_dnb": 14616.99669
+  },
+  {
+   "period": "2020Q4",
+   "gdp_millions": 44282.085018,
+   "mean_ntl_dnb": 0.766323,
+   "sum_ntl_dnb": 22323.068931
+  },
+  {
+   "period": "2021Q1",
+   "gdp_millions": 45450.03572,
+   "mean_ntl_dnb": 0.65306,
+   "sum_ntl_dnb": 19023.700246
+  },
+  {
+   "period": "2021Q2",
+   "gdp_millions": 39414.818179,
+   "mean_ntl_dnb": 0.750916,
+   "sum_ntl_dnb": 21874.256434
+  },
+  {
+   "period": "2021Q3",
+   "gdp_millions": 42731.961803,
+   "mean_ntl_dnb": 0.667076,
+   "sum_ntl_dnb": 19431.986527
+  },
+  {
+   "period": "2021Q4",
+   "gdp_millions": 46995.232247,
+   "mean_ntl_dnb": 0.77481,
+   "sum_ntl_dnb": 22570.299569
+  },
+  {
+   "period": "2022Q1",
+   "gdp_millions": 46936.746381,
+   "mean_ntl_dnb": 0.756108,
+   "sum_ntl_dnb": 22025.51079
+  },
+  {
+   "period": "2022Q2",
+   "gdp_millions": 41349.269795,
+   "mean_ntl_dnb": 0.805591,
+   "sum_ntl_dnb": 23466.949431
+  },
+  {
+   "period": "2022Q3",
+   "gdp_millions": 44155.502411,
+   "mean_ntl_dnb": 0.591069,
+   "sum_ntl_dnb": 17217.899741
+  },
+  {
+   "period": "2022Q4",
+   "gdp_millions": 48793.538065,
+   "mean_ntl_dnb": 0.930618,
+   "sum_ntl_dnb": 27108.991951
+  },
+  {
+   "period": "2023Q1",
+   "gdp_millions": 48419.436186,
+   "mean_ntl_dnb": 0.825236,
+   "sum_ntl_dnb": 24039.197333
+  },
+  {
+   "period": "2023Q2",
+   "gdp_millions": 42222.23171,
+   "mean_ntl_dnb": 0.89512,
+   "sum_ntl_dnb": 26074.935858
+  },
+  {
+   "period": "2023Q3",
+   "gdp_millions": 45003.224344,
+   "mean_ntl_dnb": 0.721562,
+   "sum_ntl_dnb": 21019.182862
+  },
+  {
+   "period": "2023Q4",
+   "gdp_millions": 51281.110115,
+   "mean_ntl_dnb": 0.930632,
+   "sum_ntl_dnb": 27109.386207
+  },
+  {
+   "period": "2024Q1",
+   "gdp_millions": 50777.308945,
+   "mean_ntl_dnb": 0.908441,
+   "sum_ntl_dnb": 26462.96359
+  },
+  {
+   "period": "2024Q2",
+   "gdp_millions": 45394.091161,
+   "mean_ntl_dnb": 0.870088,
+   "sum_ntl_dnb": 25345.744277
+  },
+  {
+   "period": "2024Q3",
+   "gdp_millions": 48358.263238,
+   "mean_ntl_dnb": 0.844474,
+   "sum_ntl_dnb": 24599.593859
+  },
+  {
+   "period": "2024Q4",
+   "gdp_millions": 53326.778198,
+   "mean_ntl_dnb": 1.162429,
+   "sum_ntl_dnb": 33861.65329
+  },
+  {
+   "period": "2025Q1",
+   "gdp_millions": 53930.608419,
+   "mean_ntl_dnb": 1.022804,
+   "sum_ntl_dnb": 29794.370302
+  },
+  {
+   "period": "2025Q2",
+   "gdp_millions": 48370.220012,
+   "mean_ntl_dnb": 1.124369,
+   "sum_ntl_dnb": 32752.978772
+  },
+  {
+   "period": "2025Q3",
+   "gdp_millions": 50916.502014,
+   "mean_ntl_dnb": 0.898375,
+   "sum_ntl_dnb": 26169.757388
+  },
+  {
+   "period": "2025Q4",
+   "gdp_millions": 56420.30898,
+   "mean_ntl_dnb": 1.154437,
+   "sum_ntl_dnb": 33628.855137
+  }
+ ],
+ "descriptives": [
+  {
+   "variable": "mean_ntl_dnb",
+   "n": 48,
+   "mean": 0.593273,
+   "sd": 0.281053,
+   "min": 0.173451,
+   "median": 0.571427,
+   "max": 1.162429
+  },
+  {
+   "variable": "mean_evi",
+   "n": 48,
+   "mean": 3634.711872,
+   "sd": 696.284455,
+   "min": 2326.947235,
+   "median": 3847.088662,
+   "max": 4569.728345
+  },
+  {
+   "variable": "mean_asi",
+   "n": 48,
+   "mean": 8.030291,
+   "sd": 5.41455,
+   "min": 1.237249,
+   "median": 6.711374,
+   "max": 25.174797
+  },
+  {
+   "variable": "mean_vhi",
+   "n": 48,
+   "mean": 0.519303,
+   "sd": 0.051575,
+   "min": 0.406489,
+   "median": 0.522783,
+   "max": 0.641867
+  },
+  {
+   "variable": "mean_no2",
+   "n": 48,
+   "mean": 0.000574,
+   "sd": 0.000386,
+   "min": 6.9e-05,
+   "median": 0.000535,
+   "max": 0.0015
+  },
+  {
+   "variable": "log_GDP",
+   "n": 48,
+   "mean": 10.61232,
+   "sd": 0.166741,
+   "min": 10.291403,
+   "median": 10.615292,
+   "max": 10.940584
+  }
+ ],
+ "adf": [
+  {
+   "variable": "mean_ntl_dnb",
+   "stat": 0.33078,
+   "p": 0.978713,
+   "result": "Non-stationary"
+  },
+  {
+   "variable": "mean_evi",
+   "stat": -1.46279,
+   "p": 0.551832,
+   "result": "Non-stationary"
+  },
+  {
+   "variable": "mean_asi",
+   "stat": -4.220332,
+   "p": 0.000609,
+   "result": "Stationary"
+  },
+  {
+   "variable": "mean_vhi",
+   "stat": -2.942726,
+   "p": 0.0406,
+   "result": "Stationary"
+  },
+  {
+   "variable": "mean_no2",
+   "stat": -1.178661,
+   "p": 0.682707,
+   "result": "Non-stationary"
+  },
+  {
+   "variable": "log_GDP",
+   "stat": -0.764002,
+   "p": 0.829468,
+   "result": "Non-stationary"
+  },
+  {
+   "variable": "dlog_GDP",
+   "stat": -4.093164,
+   "p": 0.000994,
+   "result": "Stationary"
+  }
+ ],
+ "vif": [
+  {
+   "variable": "mean_ntl_dnb",
+   "vif": 2.532001,
+   "decision": "Retained"
+  },
+  {
+   "variable": "mean_evi",
+   "vif": 61.725212,
+   "decision": "Dropped"
+  },
+  {
+   "variable": "mean_asi",
+   "vif": 3.139078,
+   "decision": "Retained"
+  },
+  {
+   "variable": "mean_vhi",
+   "vif": 5.891797,
+   "decision": "Retained"
+  },
+  {
+   "variable": "mean_no2",
+   "vif": 5.714779,
+   "decision": "Retained"
+  },
+  {
+   "variable": "Q_2",
+   "vif": 56.539529,
+   "decision": "Seasonal control"
+  },
+  {
+   "variable": "Q_3",
+   "vif": 96.874018,
+   "decision": "Seasonal control"
+  },
+  {
+   "variable": "Q_4",
+   "vif": 47.194708,
+   "decision": "Seasonal control"
+  }
+ ],
+ "ols": [
+  {
+   "variable": "Constant",
+   "coef": 10.633107,
+   "se_hc3": 0.250543,
+   "z": 42.440242,
+   "p": 0.0
+  },
+  {
+   "variable": "mean_ntl_dnb",
+   "coef": 0.454702,
+   "se_hc3": 0.044251,
+   "z": 10.275415,
+   "p": 0.0
+  },
+  {
+   "variable": "mean_asi",
+   "coef": -0.001065,
+   "se_hc3": 0.002845,
+   "z": -0.374417,
+   "p": 0.708094
+  },
+  {
+   "variable": "mean_vhi",
+   "coef": -0.247915,
+   "se_hc3": 0.407763,
+   "z": -0.607988,
+   "p": 0.543195
+  },
+  {
+   "variable": "mean_no2",
+   "coef": -153.163689,
+   "se_hc3": 50.348755,
+   "z": -3.042055,
+   "p": 0.00235
+  },
+  {
+   "variable": "Q2",
+   "coef": -0.16503,
+   "se_hc3": 0.026082,
+   "z": -6.327395,
+   "p": 0.0
+  },
+  {
+   "variable": "Q3",
+   "coef": -0.09236,
+   "se_hc3": 0.042213,
+   "z": -2.187961,
+   "p": 0.028672
+  },
+  {
+   "variable": "Q4",
+   "coef": -0.003959,
+   "se_hc3": 0.022309,
+   "z": -0.177459,
+   "p": 0.859148
+  }
+ ],
+ "diagnostics": [
+  {
+   "test": "Durbin-Watson",
+   "stat": 2.231106,
+   "p": null
+  },
+  {
+   "test": "Jarque-Bera",
+   "stat": 2.570419,
+   "p": 0.276593
+  },
+  {
+   "test": "Breusch-Pagan",
+   "stat": 10.356992,
+   "p": 0.169229
+  },
+  {
+   "test": "White",
+   "stat": 37.316939,
+   "p": 0.13829
+  },
+  {
+   "test": "F-statistic",
+   "stat": 81.047854,
+   "p": 0.0
+  }
+ ],
+ "sarimax_top5": [
+  {
+   "order": "(1,1,0)(0,1,0)4",
+   "aic": -145.032744,
+   "bic": -133.037739
+  },
+  {
+   "order": "(2,1,0)(0,1,0)4",
+   "aic": -142.582982,
+   "bic": -129.071947
+  },
+  {
+   "order": "(2,1,1)(0,1,0)4",
+   "aic": -142.524558,
+   "bic": -127.324643
+  },
+  {
+   "order": "(0,1,1)(0,1,0)4",
+   "aic": -142.077558,
+   "bic": -130.255402
+  },
+  {
+   "order": "(1,1,1)(0,1,0)4",
+   "aic": -139.718398,
+   "bic": -126.207362
+  }
+ ],
+ "rolling_forecast": [
+  {
+   "quarter": "2024Q1",
+   "actual_ghs_m": 50777.308945,
+   "forecast_ghs_m": 50629.659527,
+   "error_pct": 0.290778
+  },
+  {
+   "quarter": "2024Q2",
+   "actual_ghs_m": 45394.091161,
+   "forecast_ghs_m": 44533.576637,
+   "error_pct": 1.895653
+  },
+  {
+   "quarter": "2024Q3",
+   "actual_ghs_m": 48358.263238,
+   "forecast_ghs_m": 46623.884352,
+   "error_pct": 3.58652
+  },
+  {
+   "quarter": "2024Q4",
+   "actual_ghs_m": 53326.778198,
+   "forecast_ghs_m": 55468.526508,
+   "error_pct": 4.016272
+  },
+  {
+   "quarter": "2025Q1",
+   "actual_ghs_m": 53930.608419,
+   "forecast_ghs_m": 54278.092281,
+   "error_pct": 0.644317
+  },
+  {
+   "quarter": "2025Q2",
+   "actual_ghs_m": 48370.220012,
+   "forecast_ghs_m": 47443.53305,
+   "error_pct": 1.915821
+  },
+  {
+   "quarter": "2025Q3",
+   "actual_ghs_m": 50916.502014,
+   "forecast_ghs_m": 52119.816357,
+   "error_pct": 2.363309
+  },
+  {
+   "quarter": "2025Q4",
+   "actual_ghs_m": 56420.30898,
+   "forecast_ghs_m": 56038.427686,
+   "error_pct": 0.676851
+  }
+ ]
+}

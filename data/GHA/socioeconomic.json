@@ -1,0 +1,2231 @@
+{
+ "report": "Night-time Lights as a Lens on Socio-economic Development in Ghana (GSS, draft 14 Jun 2026)",
+ "headline": {
+  "year_cross_section": 2021,
+  "mean_radiance_2012": 1.855954,
+  "mean_radiance_2025": 6.659255,
+  "increase_2012_2025_pct": 258.804943,
+  "share_districts_below_0_5_pct": 55.172414,
+  "brightest": {
+   "name": "Ayawaso East",
+   "region": "Greater Accra",
+   "ntl_mean": 52.170137
+  },
+  "dimmest": {
+   "name": "Sekyere Afram Plains",
+   "region": "Ashanti",
+   "ntl_mean": 0.008916
+  },
+  "theil_between_share_ntl_pct": 71.517951,
+  "convergence_slope": -0.212639,
+  "convergence_pearson_r": -0.749182,
+  "convergence_spearman": -0.676298,
+  "convergence_n": 257
+ },
+ "national_trend": [
+  {
+   "year": 2012,
+   "mean": 1.855954,
+   "median": 0.063009,
+   "p25": 0.02275,
+   "p75": 0.30718
+  },
+  {
+   "year": 2013,
+   "mean": 2.079209,
+   "median": 0.077677,
+   "p25": 0.025173,
+   "p75": 0.41545
+  },
+  {
+   "year": 2014,
+   "mean": 2.099376,
+   "median": 0.072477,
+   "p25": 0.02342,
+   "p75": 0.376176
+  },
+  {
+   "year": 2015,
+   "mean": 1.755076,
+   "median": 0.082356,
+   "p25": 0.030793,
+   "p75": 0.474735
+  },
+  {
+   "year": 2016,
+   "mean": 2.304849,
+   "median": 0.140738,
+   "p25": 0.046374,
+   "p75": 0.565344
+  },
+  {
+   "year": 2017,
+   "mean": 2.576507,
+   "median": 0.200167,
+   "p25": 0.068539,
+   "p75": 0.763926
+  },
+  {
+   "year": 2018,
+   "mean": 3.074864,
+   "median": 0.226663,
+   "p25": 0.080501,
+   "p75": 0.871657
+  },
+  {
+   "year": 2019,
+   "mean": 3.267704,
+   "median": 0.226196,
+   "p25": 0.087967,
+   "p75": 0.897185
+  },
+  {
+   "year": 2020,
+   "mean": 3.752255,
+   "median": 0.298082,
+   "p25": 0.123799,
+   "p75": 1.18203
+  },
+  {
+   "year": 2021,
+   "mean": 4.535316,
+   "median": 0.395084,
+   "p25": 0.160024,
+   "p75": 1.467066
+  },
+  {
+   "year": 2022,
+   "mean": 4.555125,
+   "median": 0.402764,
+   "p25": 0.160321,
+   "p75": 1.542524
+  },
+  {
+   "year": 2023,
+   "mean": 5.37934,
+   "median": 0.44398,
+   "p25": 0.179416,
+   "p75": 1.693406
+  },
+  {
+   "year": 2024,
+   "mean": 5.825464,
+   "median": 0.574975,
+   "p25": 0.241347,
+   "p75": 2.084819
+  },
+  {
+   "year": 2025,
+   "mean": 6.659255,
+   "median": 0.717621,
+   "p25": 0.289854,
+   "p75": 2.497202
+  }
+ ],
+ "regional_trend": [
+  {
+   "region": "Ahafo",
+   "year": 2012,
+   "mean": 0.062959,
+   "median": 0.042918
+  },
+  {
+   "region": "Ahafo",
+   "year": 2013,
+   "mean": 0.079701,
+   "median": 0.057433
+  },
+  {
+   "region": "Ahafo",
+   "year": 2014,
+   "mean": 0.081968,
+   "median": 0.06527
+  },
+  {
+   "region": "Ahafo",
+   "year": 2015,
+   "mean": 0.103047,
+   "median": 0.094557
+  },
+  {
+   "region": "Ahafo",
+   "year": 2016,
+   "mean": 0.134862,
+   "median": 0.124644
+  },
+  {
+   "region": "Ahafo",
+   "year": 2017,
+   "mean": 0.167171,
+   "median": 0.175822
+  },
+  {
+   "region": "Ahafo",
+   "year": 2018,
+   "mean": 0.205529,
+   "median": 0.208225
+  },
+  {
+   "region": "Ahafo",
+   "year": 2019,
+   "mean": 0.200854,
+   "median": 0.205155
+  },
+  {
+   "region": "Ahafo",
+   "year": 2020,
+   "mean": 0.268881,
+   "median": 0.295014
+  },
+  {
+   "region": "Ahafo",
+   "year": 2021,
+   "mean": 0.30077,
+   "median": 0.321189
+  },
+  {
+   "region": "Ahafo",
+   "year": 2022,
+   "mean": 0.298254,
+   "median": 0.326665
+  },
+  {
+   "region": "Ahafo",
+   "year": 2023,
+   "mean": 0.342708,
+   "median": 0.395036
+  },
+  {
+   "region": "Ahafo",
+   "year": 2024,
+   "mean": 0.431755,
+   "median": 0.518377
+  },
+  {
+   "region": "Ahafo",
+   "year": 2025,
+   "mean": 0.502569,
+   "median": 0.549631
+  },
+  {
+   "region": "Ashanti",
+   "year": 2012,
+   "mean": 1.865639,
+   "median": 0.124304
+  },
+  {
+   "region": "Ashanti",
+   "year": 2013,
+   "mean": 2.008365,
+   "median": 0.128669
+  },
+  {
+   "region": "Ashanti",
+   "year": 2014,
+   "mean": 2.198247,
+   "median": 0.120136
+  },
+  {
+   "region": "Ashanti",
+   "year": 2015,
+   "mean": 1.873395,
+   "median": 0.133272
+  },
+  {
+   "region": "Ashanti",
+   "year": 2016,
+   "mean": 2.496086,
+   "median": 0.188189
+  },
+  {
+   "region": "Ashanti",
+   "year": 2017,
+   "mean": 2.838162,
+   "median": 0.247163
+  },
+  {
+   "region": "Ashanti",
+   "year": 2018,
+   "mean": 3.113016,
+   "median": 0.317813
+  },
+  {
+   "region": "Ashanti",
+   "year": 2019,
+   "mean": 3.514752,
+   "median": 0.372852
+  },
+  {
+   "region": "Ashanti",
+   "year": 2020,
+   "mean": 4.141163,
+   "median": 0.497737
+  },
+  {
+   "region": "Ashanti",
+   "year": 2021,
+   "mean": 4.776893,
+   "median": 0.672734
+  },
+  {
+   "region": "Ashanti",
+   "year": 2022,
+   "mean": 4.992713,
+   "median": 0.750248
+  },
+  {
+   "region": "Ashanti",
+   "year": 2023,
+   "mean": 6.101085,
+   "median": 0.945536
+  },
+  {
+   "region": "Ashanti",
+   "year": 2024,
+   "mean": 6.62154,
+   "median": 1.180073
+  },
+  {
+   "region": "Ashanti",
+   "year": 2025,
+   "mean": 7.58446,
+   "median": 1.463121
+  },
+  {
+   "region": "Bono",
+   "year": 2012,
+   "mean": 0.085855,
+   "median": 0.034861
+  },
+  {
+   "region": "Bono",
+   "year": 2013,
+   "mean": 0.095611,
+   "median": 0.039701
+  },
+  {
+   "region": "Bono",
+   "year": 2014,
+   "mean": 0.100082,
+   "median": 0.036369
+  },
+  {
+   "region": "Bono",
+   "year": 2015,
+   "mean": 0.114919,
+   "median": 0.042745
+  },
+  {
+   "region": "Bono",
+   "year": 2016,
+   "mean": 0.140986,
+   "median": 0.050447
+  },
+  {
+   "region": "Bono",
+   "year": 2017,
+   "mean": 0.166915,
+   "median": 0.069882
+  },
+  {
+   "region": "Bono",
+   "year": 2018,
+   "mean": 0.199909,
+   "median": 0.08932
+  },
+  {
+   "region": "Bono",
+   "year": 2019,
+   "mean": 0.234157,
+   "median": 0.130365
+  },
+  {
+   "region": "Bono",
+   "year": 2020,
+   "mean": 0.315095,
+   "median": 0.192012
+  },
+  {
+   "region": "Bono",
+   "year": 2021,
+   "mean": 0.384592,
+   "median": 0.243458
+  },
+  {
+   "region": "Bono",
+   "year": 2022,
+   "mean": 0.402485,
+   "median": 0.258467
+  },
+  {
+   "region": "Bono",
+   "year": 2023,
+   "mean": 0.468043,
+   "median": 0.287294
+  },
+  {
+   "region": "Bono",
+   "year": 2024,
+   "mean": 0.567461,
+   "median": 0.361401
+  },
+  {
+   "region": "Bono",
+   "year": 2025,
+   "mean": 0.631365,
+   "median": 0.403565
+  },
+  {
+   "region": "Bono East",
+   "year": 2012,
+   "mean": 0.032427,
+   "median": 0.008429
+  },
+  {
+   "region": "Bono East",
+   "year": 2013,
+   "mean": 0.039846,
+   "median": 0.009492
+  },
+  {
+   "region": "Bono East",
+   "year": 2014,
+   "mean": 0.048045,
+   "median": 0.01205
+  },
+  {
+   "region": "Bono East",
+   "year": 2015,
+   "mean": 0.060344,
+   "median": 0.016788
+  },
+  {
+   "region": "Bono East",
+   "year": 2016,
+   "mean": 0.074212,
+   "median": 0.019718
+  },
+  {
+   "region": "Bono East",
+   "year": 2017,
+   "mean": 0.097439,
+   "median": 0.027364
+  },
+  {
+   "region": "Bono East",
+   "year": 2018,
+   "mean": 0.122189,
+   "median": 0.036258
+  },
+  {
+   "region": "Bono East",
+   "year": 2019,
+   "mean": 0.121423,
+   "median": 0.036737
+  },
+  {
+   "region": "Bono East",
+   "year": 2020,
+   "mean": 0.158218,
+   "median": 0.049741
+  },
+  {
+   "region": "Bono East",
+   "year": 2021,
+   "mean": 0.205295,
+   "median": 0.070746
+  },
+  {
+   "region": "Bono East",
+   "year": 2022,
+   "mean": 0.209851,
+   "median": 0.073483
+  },
+  {
+   "region": "Bono East",
+   "year": 2023,
+   "mean": 0.263985,
+   "median": 0.088781
+  },
+  {
+   "region": "Bono East",
+   "year": 2024,
+   "mean": 0.318971,
+   "median": 0.116366
+  },
+  {
+   "region": "Bono East",
+   "year": 2025,
+   "mean": 0.375496,
+   "median": 0.139127
+  },
+  {
+   "region": "Central",
+   "year": 2012,
+   "mean": 0.503008,
+   "median": 0.139407
+  },
+  {
+   "region": "Central",
+   "year": 2013,
+   "mean": 0.675341,
+   "median": 0.194436
+  },
+  {
+   "region": "Central",
+   "year": 2014,
+   "mean": 0.657905,
+   "median": 0.160659
+  },
+  {
+   "region": "Central",
+   "year": 2015,
+   "mean": 0.74344,
+   "median": 0.223031
+  },
+  {
+   "region": "Central",
+   "year": 2016,
+   "mean": 0.856087,
+   "median": 0.289601
+  },
+  {
+   "region": "Central",
+   "year": 2017,
+   "mean": 1.041882,
+   "median": 0.418407
+  },
+  {
+   "region": "Central",
+   "year": 2018,
+   "mean": 1.247143,
+   "median": 0.475715
+  },
+  {
+   "region": "Central",
+   "year": 2019,
+   "mean": 1.235894,
+   "median": 0.477331
+  },
+  {
+   "region": "Central",
+   "year": 2020,
+   "mean": 1.571316,
+   "median": 0.705379
+  },
+  {
+   "region": "Central",
+   "year": 2021,
+   "mean": 2.030959,
+   "median": 0.894474
+  },
+  {
+   "region": "Central",
+   "year": 2022,
+   "mean": 2.080379,
+   "median": 0.878615
+  },
+  {
+   "region": "Central",
+   "year": 2023,
+   "mean": 2.435807,
+   "median": 0.994826
+  },
+  {
+   "region": "Central",
+   "year": 2024,
+   "mean": 2.724081,
+   "median": 1.201178
+  },
+  {
+   "region": "Central",
+   "year": 2025,
+   "mean": 3.137824,
+   "median": 1.452374
+  },
+  {
+   "region": "Eastern",
+   "year": 2012,
+   "mean": 0.291677,
+   "median": 0.103709
+  },
+  {
+   "region": "Eastern",
+   "year": 2013,
+   "mean": 0.334348,
+   "median": 0.138804
+  },
+  {
+   "region": "Eastern",
+   "year": 2014,
+   "mean": 0.369778,
+   "median": 0.13283
+  },
+  {
+   "region": "Eastern",
+   "year": 2015,
+   "mean": 0.371591,
+   "median": 0.139872
+  },
+  {
+   "region": "Eastern",
+   "year": 2016,
+   "mean": 0.468488,
+   "median": 0.175094
+  },
+  {
+   "region": "Eastern",
+   "year": 2017,
+   "mean": 0.592719,
+   "median": 0.291948
+  },
+  {
+   "region": "Eastern",
+   "year": 2018,
+   "mean": 0.727833,
+   "median": 0.346399
+  },
+  {
+   "region": "Eastern",
+   "year": 2019,
+   "mean": 0.776262,
+   "median": 0.320335
+  },
+  {
+   "region": "Eastern",
+   "year": 2020,
+   "mean": 0.96798,
+   "median": 0.472862
+  },
+  {
+   "region": "Eastern",
+   "year": 2021,
+   "mean": 1.225927,
+   "median": 0.582123
+  },
+  {
+   "region": "Eastern",
+   "year": 2022,
+   "mean": 1.264073,
+   "median": 0.577848
+  },
+  {
+   "region": "Eastern",
+   "year": 2023,
+   "mean": 1.436806,
+   "median": 0.68934
+  },
+  {
+   "region": "Eastern",
+   "year": 2024,
+   "mean": 1.70228,
+   "median": 0.848698
+  },
+  {
+   "region": "Eastern",
+   "year": 2025,
+   "mean": 1.959938,
+   "median": 1.100351
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2012,
+   "mean": 12.432344,
+   "median": 13.822085
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2013,
+   "mean": 13.943157,
+   "median": 15.647493
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2014,
+   "mean": 13.84069,
+   "median": 15.884245
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2015,
+   "mean": 11.115886,
+   "median": 12.900051
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2016,
+   "mean": 14.618896,
+   "median": 17.212004
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2017,
+   "mean": 15.972601,
+   "median": 18.39639
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2018,
+   "mean": 19.484152,
+   "median": 22.388307
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2019,
+   "mean": 20.523028,
+   "median": 23.413867
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2020,
+   "mean": 23.009187,
+   "median": 25.721695
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2021,
+   "mean": 27.916941,
+   "median": 31.199421
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2022,
+   "mean": 27.64594,
+   "median": 31.195194
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2023,
+   "mean": 32.584096,
+   "median": 36.993271
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2024,
+   "mean": 34.747141,
+   "median": 40.599202
+  },
+  {
+   "region": "Greater Accra",
+   "year": 2025,
+   "mean": 39.510604,
+   "median": 46.639935
+  },
+  {
+   "region": "North East",
+   "year": 2012,
+   "mean": 0.02527,
+   "median": 0.020209
+  },
+  {
+   "region": "North East",
+   "year": 2013,
+   "mean": 0.020501,
+   "median": 0.01817
+  },
+  {
+   "region": "North East",
+   "year": 2014,
+   "mean": 0.018768,
+   "median": 0.018183
+  },
+  {
+   "region": "North East",
+   "year": 2015,
+   "mean": 0.018603,
+   "median": 0.016962
+  },
+  {
+   "region": "North East",
+   "year": 2016,
+   "mean": 0.032499,
+   "median": 0.028261
+  },
+  {
+   "region": "North East",
+   "year": 2017,
+   "mean": 0.050441,
+   "median": 0.047214
+  },
+  {
+   "region": "North East",
+   "year": 2018,
+   "mean": 0.049918,
+   "median": 0.046807
+  },
+  {
+   "region": "North East",
+   "year": 2019,
+   "mean": 0.064438,
+   "median": 0.054781
+  },
+  {
+   "region": "North East",
+   "year": 2020,
+   "mean": 0.111051,
+   "median": 0.086353
+  },
+  {
+   "region": "North East",
+   "year": 2021,
+   "mean": 0.138548,
+   "median": 0.12597
+  },
+  {
+   "region": "North East",
+   "year": 2022,
+   "mean": 0.136277,
+   "median": 0.137683
+  },
+  {
+   "region": "North East",
+   "year": 2023,
+   "mean": 0.165381,
+   "median": 0.148912
+  },
+  {
+   "region": "North East",
+   "year": 2024,
+   "mean": 0.205803,
+   "median": 0.170968
+  },
+  {
+   "region": "North East",
+   "year": 2025,
+   "mean": 0.275922,
+   "median": 0.227592
+  },
+  {
+   "region": "Northern",
+   "year": 2012,
+   "mean": 0.106583,
+   "median": 0.022227
+  },
+  {
+   "region": "Northern",
+   "year": 2013,
+   "mean": 0.111676,
+   "median": 0.02107
+  },
+  {
+   "region": "Northern",
+   "year": 2014,
+   "mean": 0.122771,
+   "median": 0.015314
+  },
+  {
+   "region": "Northern",
+   "year": 2015,
+   "mean": 0.144221,
+   "median": 0.013753
+  },
+  {
+   "region": "Northern",
+   "year": 2016,
+   "mean": 0.177154,
+   "median": 0.020775
+  },
+  {
+   "region": "Northern",
+   "year": 2017,
+   "mean": 0.218515,
+   "median": 0.037485
+  },
+  {
+   "region": "Northern",
+   "year": 2018,
+   "mean": 0.252817,
+   "median": 0.040013
+  },
+  {
+   "region": "Northern",
+   "year": 2019,
+   "mean": 0.278386,
+   "median": 0.03732
+  },
+  {
+   "region": "Northern",
+   "year": 2020,
+   "mean": 0.366433,
+   "median": 0.059593
+  },
+  {
+   "region": "Northern",
+   "year": 2021,
+   "mean": 0.449981,
+   "median": 0.080202
+  },
+  {
+   "region": "Northern",
+   "year": 2022,
+   "mean": 0.523576,
+   "median": 0.090456
+  },
+  {
+   "region": "Northern",
+   "year": 2023,
+   "mean": 0.61409,
+   "median": 0.116393
+  },
+  {
+   "region": "Northern",
+   "year": 2024,
+   "mean": 0.749661,
+   "median": 0.151977
+  },
+  {
+   "region": "Northern",
+   "year": 2025,
+   "mean": 0.842371,
+   "median": 0.16218
+  },
+  {
+   "region": "Oti",
+   "year": 2012,
+   "mean": 0.013841,
+   "median": 0.011247
+  },
+  {
+   "region": "Oti",
+   "year": 2013,
+   "mean": 0.018578,
+   "median": 0.011821
+  },
+  {
+   "region": "Oti",
+   "year": 2014,
+   "mean": 0.021404,
+   "median": 0.006352
+  },
+  {
+   "region": "Oti",
+   "year": 2015,
+   "mean": 0.028304,
+   "median": 0.014502
+  },
+  {
+   "region": "Oti",
+   "year": 2016,
+   "mean": 0.045191,
+   "median": 0.023219
+  },
+  {
+   "region": "Oti",
+   "year": 2017,
+   "mean": 0.072655,
+   "median": 0.042767
+  },
+  {
+   "region": "Oti",
+   "year": 2018,
+   "mean": 0.079312,
+   "median": 0.040502
+  },
+  {
+   "region": "Oti",
+   "year": 2019,
+   "mean": 0.090096,
+   "median": 0.035404
+  },
+  {
+   "region": "Oti",
+   "year": 2020,
+   "mean": 0.129982,
+   "median": 0.055449
+  },
+  {
+   "region": "Oti",
+   "year": 2021,
+   "mean": 0.171503,
+   "median": 0.096481
+  },
+  {
+   "region": "Oti",
+   "year": 2022,
+   "mean": 0.179818,
+   "median": 0.095525
+  },
+  {
+   "region": "Oti",
+   "year": 2023,
+   "mean": 0.190266,
+   "median": 0.096657
+  },
+  {
+   "region": "Oti",
+   "year": 2024,
+   "mean": 0.230133,
+   "median": 0.114784
+  },
+  {
+   "region": "Oti",
+   "year": 2025,
+   "mean": 0.27296,
+   "median": 0.136192
+  },
+  {
+   "region": "Savannah",
+   "year": 2012,
+   "mean": 0.006033,
+   "median": 0.006802
+  },
+  {
+   "region": "Savannah",
+   "year": 2013,
+   "mean": 0.006487,
+   "median": 0.00799
+  },
+  {
+   "region": "Savannah",
+   "year": 2014,
+   "mean": 0.005903,
+   "median": 0.007381
+  },
+  {
+   "region": "Savannah",
+   "year": 2015,
+   "mean": 0.009064,
+   "median": 0.010495
+  },
+  {
+   "region": "Savannah",
+   "year": 2016,
+   "mean": 0.012336,
+   "median": 0.011825
+  },
+  {
+   "region": "Savannah",
+   "year": 2017,
+   "mean": 0.017825,
+   "median": 0.020458
+  },
+  {
+   "region": "Savannah",
+   "year": 2018,
+   "mean": 0.017659,
+   "median": 0.020926
+  },
+  {
+   "region": "Savannah",
+   "year": 2019,
+   "mean": 0.018312,
+   "median": 0.02022
+  },
+  {
+   "region": "Savannah",
+   "year": 2020,
+   "mean": 0.024071,
+   "median": 0.023452
+  },
+  {
+   "region": "Savannah",
+   "year": 2021,
+   "mean": 0.029591,
+   "median": 0.033249
+  },
+  {
+   "region": "Savannah",
+   "year": 2022,
+   "mean": 0.033877,
+   "median": 0.034667
+  },
+  {
+   "region": "Savannah",
+   "year": 2023,
+   "mean": 0.037945,
+   "median": 0.039177
+  },
+  {
+   "region": "Savannah",
+   "year": 2024,
+   "mean": 0.047374,
+   "median": 0.047255
+  },
+  {
+   "region": "Savannah",
+   "year": 2025,
+   "mean": 0.054706,
+   "median": 0.058024
+  },
+  {
+   "region": "Upper East",
+   "year": 2012,
+   "mean": 0.072569,
+   "median": 0.026782
+  },
+  {
+   "region": "Upper East",
+   "year": 2013,
+   "mean": 0.095173,
+   "median": 0.030414
+  },
+  {
+   "region": "Upper East",
+   "year": 2014,
+   "mean": 0.103284,
+   "median": 0.024509
+  },
+  {
+   "region": "Upper East",
+   "year": 2015,
+   "mean": 0.139554,
+   "median": 0.054362
+  },
+  {
+   "region": "Upper East",
+   "year": 2016,
+   "mean": 0.182904,
+   "median": 0.084325
+  },
+  {
+   "region": "Upper East",
+   "year": 2017,
+   "mean": 0.270333,
+   "median": 0.149856
+  },
+  {
+   "region": "Upper East",
+   "year": 2018,
+   "mean": 0.275507,
+   "median": 0.14029
+  },
+  {
+   "region": "Upper East",
+   "year": 2019,
+   "mean": 0.296768,
+   "median": 0.127508
+  },
+  {
+   "region": "Upper East",
+   "year": 2020,
+   "mean": 0.40629,
+   "median": 0.177906
+  },
+  {
+   "region": "Upper East",
+   "year": 2021,
+   "mean": 0.576585,
+   "median": 0.29992
+  },
+  {
+   "region": "Upper East",
+   "year": 2022,
+   "mean": 0.632535,
+   "median": 0.299449
+  },
+  {
+   "region": "Upper East",
+   "year": 2023,
+   "mean": 0.726369,
+   "median": 0.344689
+  },
+  {
+   "region": "Upper East",
+   "year": 2024,
+   "mean": 0.897133,
+   "median": 0.473996
+  },
+  {
+   "region": "Upper East",
+   "year": 2025,
+   "mean": 1.043706,
+   "median": 0.509084
+  },
+  {
+   "region": "Upper West",
+   "year": 2012,
+   "mean": 0.040235,
+   "median": 0.011605
+  },
+  {
+   "region": "Upper West",
+   "year": 2013,
+   "mean": 0.044708,
+   "median": 0.012042
+  },
+  {
+   "region": "Upper West",
+   "year": 2014,
+   "mean": 0.047841,
+   "median": 0.012687
+  },
+  {
+   "region": "Upper West",
+   "year": 2015,
+   "mean": 0.074231,
+   "median": 0.030793
+  },
+  {
+   "region": "Upper West",
+   "year": 2016,
+   "mean": 0.103163,
+   "median": 0.06157
+  },
+  {
+   "region": "Upper West",
+   "year": 2017,
+   "mean": 0.153757,
+   "median": 0.118201
+  },
+  {
+   "region": "Upper West",
+   "year": 2018,
+   "mean": 0.167052,
+   "median": 0.10664
+  },
+  {
+   "region": "Upper West",
+   "year": 2019,
+   "mean": 0.169135,
+   "median": 0.097513
+  },
+  {
+   "region": "Upper West",
+   "year": 2020,
+   "mean": 0.205459,
+   "median": 0.118902
+  },
+  {
+   "region": "Upper West",
+   "year": 2021,
+   "mean": 0.260311,
+   "median": 0.160661
+  },
+  {
+   "region": "Upper West",
+   "year": 2022,
+   "mean": 0.284553,
+   "median": 0.179064
+  },
+  {
+   "region": "Upper West",
+   "year": 2023,
+   "mean": 0.315254,
+   "median": 0.171336
+  },
+  {
+   "region": "Upper West",
+   "year": 2024,
+   "mean": 0.41639,
+   "median": 0.250229
+  },
+  {
+   "region": "Upper West",
+   "year": 2025,
+   "mean": 0.522206,
+   "median": 0.294353
+  },
+  {
+   "region": "Volta",
+   "year": 2012,
+   "mean": 0.125347,
+   "median": 0.090769
+  },
+  {
+   "region": "Volta",
+   "year": 2013,
+   "mean": 0.169667,
+   "median": 0.137242
+  },
+  {
+   "region": "Volta",
+   "year": 2014,
+   "mean": 0.181515,
+   "median": 0.133212
+  },
+  {
+   "region": "Volta",
+   "year": 2015,
+   "mean": 0.213736,
+   "median": 0.153268
+  },
+  {
+   "region": "Volta",
+   "year": 2016,
+   "mean": 0.31135,
+   "median": 0.218506
+  },
+  {
+   "region": "Volta",
+   "year": 2017,
+   "mean": 0.407907,
+   "median": 0.324367
+  },
+  {
+   "region": "Volta",
+   "year": 2018,
+   "mean": 0.451355,
+   "median": 0.379003
+  },
+  {
+   "region": "Volta",
+   "year": 2019,
+   "mean": 0.472057,
+   "median": 0.400031
+  },
+  {
+   "region": "Volta",
+   "year": 2020,
+   "mean": 0.618453,
+   "median": 0.497392
+  },
+  {
+   "region": "Volta",
+   "year": 2021,
+   "mean": 0.815138,
+   "median": 0.649467
+  },
+  {
+   "region": "Volta",
+   "year": 2022,
+   "mean": 0.832563,
+   "median": 0.671098
+  },
+  {
+   "region": "Volta",
+   "year": 2023,
+   "mean": 0.884586,
+   "median": 0.738517
+  },
+  {
+   "region": "Volta",
+   "year": 2024,
+   "mean": 1.073349,
+   "median": 0.861483
+  },
+  {
+   "region": "Volta",
+   "year": 2025,
+   "mean": 1.321235,
+   "median": 1.071047
+  },
+  {
+   "region": "Western",
+   "year": 2012,
+   "mean": 1.069997,
+   "median": 0.086185
+  },
+  {
+   "region": "Western",
+   "year": 2013,
+   "mean": 1.175603,
+   "median": 0.10903
+  },
+  {
+   "region": "Western",
+   "year": 2014,
+   "mean": 1.076679,
+   "median": 0.091797
+  },
+  {
+   "region": "Western",
+   "year": 2015,
+   "mean": 1.001376,
+   "median": 0.100848
+  },
+  {
+   "region": "Western",
+   "year": 2016,
+   "mean": 1.367882,
+   "median": 0.141429
+  },
+  {
+   "region": "Western",
+   "year": 2017,
+   "mean": 1.598225,
+   "median": 0.200909
+  },
+  {
+   "region": "Western",
+   "year": 2018,
+   "mean": 1.933672,
+   "median": 0.23126
+  },
+  {
+   "region": "Western",
+   "year": 2019,
+   "mean": 1.92235,
+   "median": 0.228049
+  },
+  {
+   "region": "Western",
+   "year": 2020,
+   "mean": 2.268788,
+   "median": 0.293075
+  },
+  {
+   "region": "Western",
+   "year": 2021,
+   "mean": 2.668935,
+   "median": 0.367573
+  },
+  {
+   "region": "Western",
+   "year": 2022,
+   "mean": 2.558845,
+   "median": 0.36963
+  },
+  {
+   "region": "Western",
+   "year": 2023,
+   "mean": 2.886024,
+   "median": 0.412241
+  },
+  {
+   "region": "Western",
+   "year": 2024,
+   "mean": 3.151959,
+   "median": 0.548487
+  },
+  {
+   "region": "Western",
+   "year": 2025,
+   "mean": 3.725423,
+   "median": 0.713523
+  },
+  {
+   "region": "Western North",
+   "year": 2012,
+   "mean": 0.044032,
+   "median": 0.023353
+  },
+  {
+   "region": "Western North",
+   "year": 2013,
+   "mean": 0.050342,
+   "median": 0.025043
+  },
+  {
+   "region": "Western North",
+   "year": 2014,
+   "mean": 0.045262,
+   "median": 0.018227
+  },
+  {
+   "region": "Western North",
+   "year": 2015,
+   "mean": 0.040585,
+   "median": 0.013279
+  },
+  {
+   "region": "Western North",
+   "year": 2016,
+   "mean": 0.05766,
+   "median": 0.024758
+  },
+  {
+   "region": "Western North",
+   "year": 2017,
+   "mean": 0.069062,
+   "median": 0.03291
+  },
+  {
+   "region": "Western North",
+   "year": 2018,
+   "mean": 0.095503,
+   "median": 0.056701
+  },
+  {
+   "region": "Western North",
+   "year": 2019,
+   "mean": 0.101093,
+   "median": 0.052018
+  },
+  {
+   "region": "Western North",
+   "year": 2020,
+   "mean": 0.137543,
+   "median": 0.076027
+  },
+  {
+   "region": "Western North",
+   "year": 2021,
+   "mean": 0.174849,
+   "median": 0.107419
+  },
+  {
+   "region": "Western North",
+   "year": 2022,
+   "mean": 0.175543,
+   "median": 0.097859
+  },
+  {
+   "region": "Western North",
+   "year": 2023,
+   "mean": 0.184157,
+   "median": 0.1019
+  },
+  {
+   "region": "Western North",
+   "year": 2024,
+   "mean": 0.21352,
+   "median": 0.108558
+  },
+  {
+   "region": "Western North",
+   "year": 2025,
+   "mean": 0.264763,
+   "median": 0.133836
+  }
+ ],
+ "top_bottom_2021": [
+  {
+   "id": 310,
+   "name": "Ayawaso East",
+   "region": "Greater Accra",
+   "ntl_mean": 52.170137,
+   "rank": 1,
+   "group": "top"
+  },
+  {
+   "id": 311,
+   "name": "Ayawaso North",
+   "region": "Greater Accra",
+   "ntl_mean": 49.901288,
+   "rank": 2,
+   "group": "top"
+  },
+  {
+   "id": 308,
+   "name": "Korle Klottey",
+   "region": "Greater Accra",
+   "ntl_mean": 48.235813,
+   "rank": 3,
+   "group": "top"
+  },
+  {
+   "id": 309,
+   "name": "Ayawaso Central",
+   "region": "Greater Accra",
+   "ntl_mean": 47.149808,
+   "rank": 4,
+   "group": "top"
+  },
+  {
+   "id": 306,
+   "name": "Ablekuma Central",
+   "region": "Greater Accra",
+   "ntl_mean": 38.316822,
+   "rank": 5,
+   "group": "top"
+  },
+  {
+   "id": 304,
+   "name": "Ablekuma North",
+   "region": "Greater Accra",
+   "ntl_mean": 38.134112,
+   "rank": 6,
+   "group": "top"
+  },
+  {
+   "id": 307,
+   "name": "AMA",
+   "region": "Greater Accra",
+   "ntl_mean": 36.914261,
+   "rank": 7,
+   "group": "top"
+  },
+  {
+   "id": 316,
+   "name": "Ayawaso West",
+   "region": "Greater Accra",
+   "ntl_mean": 36.0517,
+   "rank": 8,
+   "group": "top"
+  },
+  {
+   "id": 314,
+   "name": "Krowor",
+   "region": "Greater Accra",
+   "ntl_mean": 35.830528,
+   "rank": 9,
+   "group": "top"
+  },
+  {
+   "id": 325,
+   "name": "TMA",
+   "region": "Greater Accra",
+   "ntl_mean": 35.512627,
+   "rank": 10,
+   "group": "top"
+  },
+  {
+   "id": 643,
+   "name": "Sekyere Afram Plains",
+   "region": "Ashanti",
+   "ntl_mean": 0.008916,
+   "rank": 261,
+   "group": "bottom"
+  },
+  {
+   "id": 1303,
+   "name": "North Gonja",
+   "region": "Savannah",
+   "ntl_mean": 0.01627,
+   "rank": 260,
+   "group": "bottom"
+  },
+  {
+   "id": 1007,
+   "name": "Sene East",
+   "region": "Bono East",
+   "ntl_mean": 0.019567,
+   "rank": 259,
+   "group": "bottom"
+  },
+  {
+   "id": 1307,
+   "name": "North East Gonja",
+   "region": "Savannah",
+   "ntl_mean": 0.019647,
+   "rank": 258,
+   "group": "bottom"
+  },
+  {
+   "id": 1306,
+   "name": "East Gonja",
+   "region": "Savannah",
+   "ntl_mean": 0.027479,
+   "rank": 257,
+   "group": "bottom"
+  },
+  {
+   "id": 1006,
+   "name": "Sene West",
+   "region": "Bono East",
+   "ntl_mean": 0.029508,
+   "rank": 256,
+   "group": "bottom"
+  },
+  {
+   "id": 532,
+   "name": "Kwahu Afram Plains South",
+   "region": "Eastern",
+   "ntl_mean": 0.031076,
+   "rank": 255,
+   "group": "bottom"
+  },
+  {
+   "id": 1602,
+   "name": "Wa East",
+   "region": "Upper West",
+   "ntl_mean": 0.033173,
+   "rank": 254,
+   "group": "bottom"
+  },
+  {
+   "id": 1305,
+   "name": "Central Gonja",
+   "region": "Savannah",
+   "ntl_mean": 0.033249,
+   "rank": 253,
+   "group": "bottom"
+  },
+  {
+   "id": 1302,
+   "name": "Sawla Tuna Kalba",
+   "region": "Savannah",
+   "ntl_mean": 0.034266,
+   "rank": 252,
+   "group": "bottom"
+  }
+ ],
+ "theil_2021": [
+  {
+   "indicator": "Night-time lights",
+   "theil_total": 1.497923,
+   "between": 1.071284,
+   "within": 0.426639,
+   "between_share": 0.71518,
+   "within_share": 0.28482
+  },
+  {
+   "indicator": "Internet use",
+   "theil_total": 0.033352,
+   "between": 0.023969,
+   "within": 0.009383,
+   "between_share": 0.718672,
+   "within_share": 0.281328
+  },
+  {
+   "indicator": "Relative Wealth Index (shifted)",
+   "theil_total": 0.274015,
+   "between": 0.144836,
+   "within": 0.129178,
+   "between_share": 0.528571,
+   "within_share": 0.471429
+  },
+  {
+   "indicator": "Electricity access",
+   "theil_total": 0.021405,
+   "between": 0.009714,
+   "within": 0.011691,
+   "between_share": 0.453808,
+   "within_share": 0.546192
+  }
+ ],
+ "regional_growth_2012_2024": [
+  {
+   "region": "Oti",
+   "growth_pct": 1562.641637
+  },
+  {
+   "region": "Upper East",
+   "growth_pct": 1136.250327
+  },
+  {
+   "region": "Upper West",
+   "growth_pct": 934.903995
+  },
+  {
+   "region": "Bono East",
+   "growth_pct": 883.649166
+  },
+  {
+   "region": "Volta",
+   "growth_pct": 756.304795
+  },
+  {
+   "region": "North East",
+   "growth_pct": 714.42646
+  },
+  {
+   "region": "Savannah",
+   "growth_pct": 685.207394
+  },
+  {
+   "region": "Northern",
+   "growth_pct": 603.357286
+  },
+  {
+   "region": "Ahafo",
+   "growth_pct": 585.772857
+  },
+  {
+   "region": "Bono",
+   "growth_pct": 560.95525
+  },
+  {
+   "region": "Eastern",
+   "growth_pct": 483.619165
+  },
+  {
+   "region": "Central",
+   "growth_pct": 441.557941
+  },
+  {
+   "region": "Western North",
+   "growth_pct": 384.920614
+  },
+  {
+   "region": "Ashanti",
+   "growth_pct": 254.920833
+  },
+  {
+   "region": "Western",
+   "growth_pct": 194.576298
+  },
+  {
+   "region": "Greater Accra",
+   "growth_pct": 179.489869
+  }
+ ],
+ "correlations_2021": [
+  {
+   "indicator": "Population density",
+   "column": "pop_density",
+   "n": 261,
+   "pearson_log_ntl": 0.641781,
+   "pearson_p": 0.0,
+   "spearman": 0.961459,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Clean cooking fuel",
+   "column": "clean_cooking_fuel",
+   "n": 261,
+   "pearson_log_ntl": 0.92472,
+   "pearson_p": 0.0,
+   "spearman": 0.897816,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Electricity access",
+   "column": "electricity_access",
+   "n": 261,
+   "pearson_log_ntl": 0.721056,
+   "pearson_p": 0.0,
+   "spearman": 0.859294,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Relative Wealth Index",
+   "column": "mean_rwi",
+   "n": 261,
+   "pearson_log_ntl": 0.889501,
+   "pearson_p": 0.0,
+   "spearman": 0.842044,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Internet use",
+   "column": "internet_use",
+   "n": 261,
+   "pearson_log_ntl": 0.782838,
+   "pearson_p": 0.0,
+   "spearman": 0.836894,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Adult literacy",
+   "column": "adult_literacy",
+   "n": 261,
+   "pearson_log_ntl": 0.759542,
+   "pearson_p": 0.0,
+   "spearman": 0.833399,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Net enrolment, primary",
+   "column": "ner_primary",
+   "n": 261,
+   "pearson_log_ntl": 0.662139,
+   "pearson_p": 0.0,
+   "spearman": 0.809026,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Net enrolment, SHS",
+   "column": "ner_shs",
+   "n": 261,
+   "pearson_log_ntl": 0.849662,
+   "pearson_p": 0.0,
+   "spearman": 0.791957,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Urbanisation rate",
+   "column": "urbanisation_rate",
+   "n": 261,
+   "pearson_log_ntl": 0.812576,
+   "pearson_p": 0.0,
+   "spearman": 0.733378,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Household size",
+   "column": "household_size",
+   "n": 261,
+   "pearson_log_ntl": -0.565552,
+   "pearson_p": 0.0,
+   "spearman": -0.683723,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Age dependency ratio",
+   "column": "age_dependency",
+   "n": 261,
+   "pearson_log_ntl": -0.752878,
+   "pearson_p": 0.0,
+   "spearman": -0.724985,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Under-5 mortality",
+   "column": "under5_mortality",
+   "n": 261,
+   "pearson_log_ntl": -0.709061,
+   "pearson_p": 0.0,
+   "spearman": -0.731792,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Infant mortality",
+   "column": "infant_mortality",
+   "n": 261,
+   "pearson_log_ntl": -0.70583,
+   "pearson_p": 0.0,
+   "spearman": -0.73248,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Child marriage",
+   "column": "child_marriage",
+   "n": 261,
+   "pearson_log_ntl": -0.567458,
+   "pearson_p": 0.0,
+   "spearman": -0.7817,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Multidimensional poverty rate",
+   "column": "mpi_rate",
+   "n": 261,
+   "pearson_log_ntl": -0.7743,
+   "pearson_p": 0.0,
+   "spearman": -0.811265,
+   "spearman_p": 0.0
+  },
+  {
+   "indicator": "Vulnerable employment",
+   "column": "vulnerable_employment",
+   "n": 261,
+   "pearson_log_ntl": -0.887111,
+   "pearson_p": 0.0,
+   "spearman": -0.860512,
+   "spearman_p": 0.0
+  }
+ ],
+ "spearman_matrix_2021": {
+  "variables": [
+   "ntl_mean",
+   "pop_density",
+   "clean_cooking_fuel",
+   "electricity_access",
+   "mean_rwi",
+   "internet_use",
+   "adult_literacy",
+   "ner_primary",
+   "ner_shs",
+   "urbanisation_rate",
+   "household_size",
+   "age_dependency",
+   "infant_mortality",
+   "under5_mortality",
+   "child_marriage",
+   "mpi_rate",
+   "vulnerable_employment"
+  ],
+  "values": [
+   [
+    1.0,
+    0.961459,
+    0.897816,
+    0.859294,
+    0.842044,
+    0.836894,
+    0.833399,
+    0.809026,
+    0.791957,
+    0.733378,
+    -0.683723,
+    -0.724985,
+    -0.73248,
+    -0.731792,
+    -0.7817,
+    -0.811265,
+    -0.860512
+   ],
+   [
+    0.961459,
+    1.0,
+    0.856827,
+    0.821734,
+    0.804762,
+    0.798035,
+    0.780961,
+    0.795427,
+    0.784321,
+    0.74326,
+    -0.614266,
+    -0.702974,
+    -0.724621,
+    -0.723309,
+    -0.747371,
+    -0.798171,
+    -0.82806
+   ],
+   [
+    0.897816,
+    0.856827,
+    1.0,
+    0.863729,
+    0.818269,
+    0.924689,
+    0.914759,
+    0.83685,
+    0.848109,
+    0.776303,
+    -0.784054,
+    -0.868995,
+    -0.81169,
+    -0.814178,
+    -0.85344,
+    -0.883475,
+    -0.897785
+   ],
+   [
+    0.859294,
+    0.821734,
+    0.863729,
+    1.0,
+    0.771979,
+    0.835926,
+    0.821379,
+    0.764653,
+    0.774455,
+    0.747623,
+    -0.693966,
+    -0.722086,
+    -0.684786,
+    -0.685959,
+    -0.757919,
+    -0.842104,
+    -0.783799
+   ],
+   [
+    0.842044,
+    0.804762,
+    0.818269,
+    0.771979,
+    1.0,
+    0.764904,
+    0.758936,
+    0.746259,
+    0.726438,
+    0.674139,
+    -0.640004,
+    -0.715953,
+    -0.665004,
+    -0.663264,
+    -0.730297,
+    -0.743041,
+    -0.791123
+   ],
+   [
+    0.836894,
+    0.798035,
+    0.924689,
+    0.835926,
+    0.764904,
+    1.0,
+    0.986377,
+    0.870593,
+    0.891038,
+    0.736589,
+    -0.79097,
+    -0.855261,
+    -0.805801,
+    -0.808954,
+    -0.89561,
+    -0.910941,
+    -0.841917
+   ],
+   [
+    0.833399,
+    0.780961,
+    0.914759,
+    0.821379,
+    0.758936,
+    0.986377,
+    1.0,
+    0.861307,
+    0.867918,
+    0.701792,
+    -0.808614,
+    -0.82112,
+    -0.772136,
+    -0.775136,
+    -0.920285,
+    -0.881674,
+    -0.812202
+   ],
+   [
+    0.809026,
+    0.795427,
+    0.83685,
+    0.764653,
+    0.746259,
+    0.870593,
+    0.861307,
+    1.0,
+    0.873246,
+    0.640121,
+    -0.654872,
+    -0.797556,
+    -0.74749,
+    -0.749302,
+    -0.779161,
+    -0.837718,
+    -0.798447
+   ],
+   [
+    0.791957,
+    0.784321,
+    0.848109,
+    0.774455,
+    0.726438,
+    0.891038,
+    0.867918,
+    0.873246,
+    1.0,
+    0.745343,
+    -0.643947,
+    -0.829788,
+    -0.719597,
+    -0.723321,
+    -0.826141,
+    -0.86199,
+    -0.826635
+   ],
+   [
+    0.733378,
+    0.74326,
+    0.776303,
+    0.747623,
+    0.674139,
+    0.736589,
+    0.701792,
+    0.640121,
+    0.745343,
+    1.0,
+    -0.512376,
+    -0.688196,
+    -0.672954,
+    -0.67509,
+    -0.667494,
+    -0.806264,
+    -0.785228
+   ],
+   [
+    -0.683723,
+    -0.614266,
+    -0.784054,
+    -0.693966,
+    -0.640004,
+    -0.79097,
+    -0.808614,
+    -0.654872,
+    -0.643947,
+    -0.512376,
+    1.0,
+    0.76284,
+    0.581103,
+    0.584034,
+    0.767207,
+    0.66618,
+    0.640999
+   ],
+   [
+    -0.724985,
+    -0.702974,
+    -0.868995,
+    -0.722086,
+    -0.715953,
+    -0.855261,
+    -0.82112,
+    -0.797556,
+    -0.829788,
+    -0.688196,
+    0.76284,
+    1.0,
+    0.776734,
+    0.779873,
+    0.756005,
+    0.82628,
+    0.828443
+   ],
+   [
+    -0.73248,
+    -0.724621,
+    -0.81169,
+    -0.684786,
+    -0.665004,
+    -0.805801,
+    -0.772136,
+    -0.74749,
+    -0.719597,
+    -0.672954,
+    0.581103,
+    0.776734,
+    1.0,
+    0.998853,
+    0.705441,
+    0.791539,
+    0.785744
+   ],
+   [
+    -0.731792,
+    -0.723309,
+    -0.814178,
+    -0.685959,
+    -0.663264,
+    -0.808954,
+    -0.775136,
+    -0.749302,
+    -0.723321,
+    -0.67509,
+    0.584034,
+    0.779873,
+    0.998853,
+    1.0,
+    0.708397,
+    0.79321,
+    0.785182
+   ],
+   [
+    -0.7817,
+    -0.747371,
+    -0.85344,
+    -0.757919,
+    -0.730297,
+    -0.89561,
+    -0.920285,
+    -0.779161,
+    -0.826141,
+    -0.667494,
+    0.767207,
+    0.756005,
+    0.705441,
+    0.708397,
+    1.0,
+    0.827516,
+    0.754912
+   ],
+   [
+    -0.811265,
+    -0.798171,
+    -0.883475,
+    -0.842104,
+    -0.743041,
+    -0.910941,
+    -0.881674,
+    -0.837718,
+    -0.86199,
+    -0.806264,
+    0.66618,
+    0.82628,
+    0.791539,
+    0.79321,
+    0.827516,
+    1.0,
+    0.826768
+   ],
+   [
+    -0.860512,
+    -0.82806,
+    -0.897785,
+    -0.783799,
+    -0.791123,
+    -0.841917,
+    -0.812202,
+    -0.798447,
+    -0.826635,
+    -0.785228,
+    0.640999,
+    0.828443,
+    0.785744,
+    0.785182,
+    0.754912,
+    0.826768,
+    1.0
+   ]
+  ]
+ },
+ "notes": [
+  "Rebuilt by 03a_socioeconomic/reproduce/reproduce_socioeconomic.py; see its validation_log.md.",
+  "Uses the socio-economic team's nightlight panel (03a_socioeconomic/nightlight_panel_enriched.csv), which differs from the panel used by the spatial expansion report.",
+  "Report quotes a convergence 'rank correlation' of -0.74; the Spearman value is -0.68 and the Pearson r is -0.75 (to confirm with the author).",
+  "Pearson correlations use log(mean radiance); Spearman use ranks."
+ ]
+}

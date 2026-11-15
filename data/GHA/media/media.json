@@ -1,0 +1,34 @@
+{
+ "timelapse": {
+  "file": "media/timelapse.gif",
+  "title": "Ghana at night, 2012–2025",
+  "alt": "Animated satellite map of Ghana at night from 2012 to 2025: lights spread out from Accra, Kumasi and Tamale and along the main roads.",
+  "bytes": 3291889,
+  "video": {
+   "mp4": "media/timelapse.mp4",
+   "webm": "media/timelapse.webm"
+  },
+  "poster": "media/timelapse_poster.jpg",
+  "size": [
+   799,
+   710
+  ]
+ },
+ "before_after": {
+  "file": "media/before_after.gif",
+  "title": "Before and after: 2012 and 2025",
+  "alt": "A curtain sweeps across the map of Ghana at night, revealing 2025 over 2012: far more of the country is lit.",
+  "bytes": 2824770,
+  "video": {
+   "mp4": "media/before_after.mp4",
+   "webm": "media/before_after.webm"
+  }
+ },
+ "cover": {
+  "file": "media/cover.png",
+  "title": "Night-time Lights and Development in Ghana",
+  "alt": "Title image with the satellite map of Ghana at night in 2025.",
+  "bytes": 482740
+ },
+ "source": "Source: GSS computations from VIIRS night-time lights (Earth Observation Group, Colorado School of Mines)."
+}
