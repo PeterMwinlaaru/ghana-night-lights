@@ -227,7 +227,7 @@ async function boot() {
     $("#loading").hidden = true;
     window.addEventListener("hashchange", safeRoute);
     await safeRoute();
-    setTimeout(prefetch, 2500);
+    setTimeout(prefetch, 1000);
   } catch (e) {
     $("#loading").hidden = true;
     const box = $("#load-error");
@@ -266,7 +266,7 @@ async function ensureData(keys) {
 /* After start-up, fetch the large files quietly so that first visits to the map and chart pages rarely wait */
 function prefetch() {
   const later = window.requestIdleCallback || ((f) => setTimeout(f, 200));
-  ["plotly", "geo", "panel"].forEach((k, i) => setTimeout(() => later(() => { if (!S[k]) S[`_${k}`] = S[`_${k}`] || LOADERS[k]().catch(() => { S[`_${k}`] = null; }); }), i * 800));
+  ["geo", "panel", "plotly"].forEach((k, i) => setTimeout(() => later(() => { if (!S[k]) S[`_${k}`] = S[`_${k}`] || LOADERS[k]().catch(() => { S[`_${k}`] = null; }); }), i * 300));
 }
 const currentPage = () => { const p = (location.hash.replace(/^#/, "") || "overview").split("/")[0]; return PAGES[p] ? p : "overview"; };
 
