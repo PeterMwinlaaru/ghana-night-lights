@@ -141,7 +141,19 @@ function layout(extra = {}) {
   return out;
 }
 const CONFIG = { displayModeBar: false, responsive: true };
-function plot(id, traces, lay) { const el = document.getElementById(id); if (el) Plotly.newPlot(el, traces, layout(lay), CONFIG); }
+/* Charts are drawn only when they come within 400 px of the screen: a page with ten charts opens at once and the
+ * rest draw as the reader scrolls. Redrawing a chart (a dropdown change, a theme switch) replaces its pending spec. */
+const drawNow = (el) => { const sp = el._spec; if (sp) { el._spec = null; Plotly.newPlot(el, sp.traces, sp.lay, CONFIG); } };
+const chartObserver = "IntersectionObserver" in window
+  ? new IntersectionObserver((entries) => entries.forEach((e) => { if (e.isIntersecting) { chartObserver.unobserve(e.target); drawNow(e.target); } }), { rootMargin: "400px 0px" })
+  : null;
+function plot(id, traces, lay) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el._spec = { traces, lay: layout(lay) };
+  if (!chartObserver || el.classList.contains("js-plotly-plot")) { drawNow(el); return; }   // already drawn once: update in place
+  chartObserver.observe(el);
+}
 
 /* A GSS figure: blue key-message box, navy caption, chart(s), italic note. */
 function figure({ msg, caption, note, charts, tools = "", panels }) {
@@ -181,6 +193,7 @@ function onDownload(e) {
   if (!b) return;
   if (b.dataset.png) {
     const el = document.getElementById(b.dataset.png);
+    if (el && el._spec) drawNow(el);   // not drawn yet (below the screen): draw first
     if (el) Plotly.downloadImage(el, { format: "png", filename: `gss_ntl_${slug(b.dataset.name)}`, width: el.clientWidth, height: el.clientHeight, scale: 2 });
   } else if (b.dataset.csv) {
     const t = b.closest(".figure").querySelector("table");
@@ -196,13 +209,12 @@ function onDownload(e) {
 async function boot() {
   try {
     // the district boundaries (0.7 MB) and the district-year panel (0.4 MB) load only for the pages that use them
-    const [meta, districts, regions, se, so, gdp] = await Promise.all([
+    const opt = (n) => get(n).catch(() => null);   // optional files: the site works without them
+    const [meta, districts, regions, se, so, gdp, lights, access, accessD, media] = await Promise.all([
       get("meta.json"), get("districts.csv"), get("regions.csv"),
-      get("spatial_expansion.json"), get("socioeconomic.json"), get("gdp.json")]);
+      get("spatial_expansion.json"), get("socioeconomic.json"), get("gdp.json"),
+      opt("lights/lights.json"), opt("access.json"), opt("access_districts.csv"), opt("media/media.json")]);
     districts.forEach((d) => { d.so_growth_pct = isNum(d.so_log_growth_2012_2024) ? (Math.exp(d.so_log_growth_2012_2024) - 1) * 100 : null; });
-    const lights = await get("lights/lights.json").catch(() => null);   // optional: night-light images
-    const [access, accessD, media] = await Promise.all([get("access.json").catch(() => null),
-      get("access_districts.csv").catch(() => null), get("media/media.json").catch(() => null)]);
     if (accessD) { const by = new Map(accessD.map((r) => [r.id, r])); districts.forEach((d) => Object.assign(d, by.get(d.id) || {})); }
     if (!access) document.querySelector('.tabs a[data-page="access"]').hidden = true;
     Object.assign(S, { meta, districts, regions, se, so, gdp, lights, access, media });
@@ -214,7 +226,8 @@ async function boot() {
     $("#theme-toggle").addEventListener("click", toggleTheme);
     $("#loading").hidden = true;
     window.addEventListener("hashchange", safeRoute);
-    safeRoute();
+    await safeRoute();
+    setTimeout(prefetch, 2500);
   } catch (e) {
     $("#loading").hidden = true;
     const box = $("#load-error");
@@ -235,17 +248,25 @@ function toggleTheme() {
 }
 
 /* Large files are fetched once, the first time a page needs them */
-const NEEDS = { map: ["geo", "panel"], socio: ["panel"], district: ["geo", "panel"] };
+const NEEDS = { map: ["geo", "panel"], socio: ["panel", "plotly"], district: ["geo", "panel", "plotly"],
+                expansion: ["plotly"], access: ["plotly"], gdp: ["plotly"] };
+const loadScript = (src) => new Promise((ok, fail) => { const t = document.createElement("script"); t.src = src; t.onload = ok; t.onerror = () => fail(new Error(`${src} could not be loaded`)); document.head.appendChild(t); });
 const LOADERS = {
+  plotly: async () => { if (!window.Plotly) await loadScript("assets/vendor/plotly-cartesian.min.js"); S.plotly = true; },   // 1.4 MB: only for chart pages
   geo: async () => { S.geo = await get("districts.geojson"); },
   panel: async () => { S.panel = await get("district_panel.csv"); S.panelBy = new Map(S.panel.map((p) => [`${p.id}-${p.year}`, p])); },
 };
 async function ensureData(keys) {
   const todo = keys.filter((k) => !S[k]);
   if (!todo.length) return;
-  $("#loading").hidden = false; $("#loading").textContent = "Loading map and district data…";
+  $("#loading").hidden = false; $("#loading").textContent = todo.includes("geo") ? "Loading map and district data…" : "Loading charts…";
   try { await Promise.all(todo.map((k) => (S[`_${k}`] = S[`_${k}`] || LOADERS[k]()))); }
   finally { $("#loading").hidden = true; }
+}
+/* After start-up, fetch the large files quietly so that first visits to the map and chart pages rarely wait */
+function prefetch() {
+  const later = window.requestIdleCallback || ((f) => setTimeout(f, 200));
+  ["plotly", "geo", "panel"].forEach((k, i) => setTimeout(() => later(() => { if (!S[k]) S[`_${k}`] = S[`_${k}`] || LOADERS[k]().catch(() => { S[`_${k}`] = null; }); }), i * 800));
 }
 const currentPage = () => { const p = (location.hash.replace(/^#/, "") || "overview").split("/")[0]; return PAGES[p] ? p : "overview"; };
 
@@ -271,7 +292,7 @@ function route() {
   else if (name === "map") { renderMap(args); }
   else if (!S.rendered.has(name)) { PAGES[name](); S.rendered.add(name); }
   // charts drawn while hidden get the wrong width: resize everything on the visible page
-  requestAnimationFrame(() => document.querySelectorAll(`#page-${name} .js-plotly-plot`).forEach((el) => Plotly.Plots.resize(el)));
+  if (window.Plotly) requestAnimationFrame(() => document.querySelectorAll(`#page-${name} .js-plotly-plot`).forEach((el) => Plotly.Plots.resize(el)));
   if (name !== "district" && name !== "map") window.scrollTo(0, 0);
 }
 
@@ -1158,6 +1179,12 @@ function renderDistrict(arg) {
   selR.value = d.region;
   fillDistricts(d.region);
   selD.value = String(d.id);
+  const sig = `${d.id}|${themeName()}`;
+  if (S.districtShown === sig && $("#district-body").childElementCount) {   // same profile: keep what is on screen
+    if (S.miniMap) setTimeout(() => S.miniMap.invalidateSize(), 0);
+    return;
+  }
+  S.districtShown = sig;
   const all = S.districts, reg = all.filter((x) => x.region === d.region);
   const rank = (k) => (isNum(d[k]) ? all.filter((x) => isNum(x[k]) && x[k] > d[k]).length + 1 : null);
   const nOf = (k) => all.filter((x) => isNum(x[k])).length;
